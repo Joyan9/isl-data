@@ -1,0 +1,55 @@
+name: ingest
+
+on:
+  schedule:
+    - cron: "0 6 * * *"        # daily 06:00 UTC: picks up matches finished since the last run
+  workflow_dispatch:
+    inputs:
+      match_ids:
+        description: "Optional space-separated match IDs. Leave empty to ingest every finished, not-yet-ingested fixture."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements-dev.txt
+
+      - name: Unit tests
+        run: python -m pytest -q
+
+      - name: Smoke test (fails fast if FotMob does not answer this runner)
+        run: python -m fotmob_isl smoke 6361990
+
+      - name: Ingest
+        env:
+          MATCH_IDS: ${{ inputs.match_ids }}
+        run: |
+          if [ -n "$MATCH_IDS" ]; then
+            # unquoted on purpose: word-splits into separate IDs; argparse rejects non-integers
+            python -m fotmob_isl ingest --match-ids $MATCH_IDS --skip-existing
+          else
+            python -m fotmob_isl ingest --discover
+          fi
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: ingest $(date -u +%F)"
+          git push
