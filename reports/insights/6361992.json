@@ -1,7 +1,8 @@
 {
   "match_id": "6361992",
-  "status": "failed",
-  "source_hash": "1dca6c20865f27f53b527de899dbca2739a9087a5450902cb3f80ccaf4aabd86",
-  "error": "APIStatusError: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-20b` in organization `org_01kmfmwa3tehv8zhv9a5sr1m8k` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 126985, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-  "generated_at_utc": "2026-10-12T19:10:44+00:00"
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
+  "source_hash": "e567f92d4ffd19505b565e10414bbc4f8cfa2cd8e540d42aef883157f808c64d",
+  "insights": "- Kerala Blasters FC’s 1.38 expected‑goals (xG) was more than twice Inter Kashi’s 0.40 xG, yet both sides finished level on 50% possession – so possession alone didn’t explain the 2‑0 result.  \n- Kerala’s 14 shots included 10 inside the box and 8 on target, compared to Inter’s 9 shots with 5 inside the box and 6 on target – a 5‑shot advantage that translated into both goals, showing that the sheer number of quality chances mattered.  \n- Andre Green’s 6 shots (xG 0.66) produced a goal and a rating of 8.43, while Vibin Mohanan hit the net on his lone shot (xG 0.31). Their conversion rates were surprisingly high given the low xG, highlighting that xG is about chance quality, not a guaranteed outcome.  \n- Inter’s passing accuracy was 343 vs Kerala’s 363, yet Kerala’s single “big chance” and higher xG_on_target (2.02 vs 0.59) tipped the scales.  The data are incomplete on how many shots were from set pieces, so that uncertainty may also have affected the final tally.",
+  "generated_at_utc": "2026-10-12T19:18:39+00:00"
 }

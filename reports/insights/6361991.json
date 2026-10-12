@@ -1,7 +1,8 @@
 {
   "match_id": "6361991",
-  "status": "failed",
-  "source_hash": "59cec0071a751a6ede2d9e2c04b115a7f2a6e304f1f8627808f0162dff3220c2",
-  "error": "APIStatusError: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-20b` in organization `org_01kmfmwa3tehv8zhv9a5sr1m8k` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 122487, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
-  "generated_at_utc": "2026-10-12T19:10:43+00:00"
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
+  "source_hash": "17826c53aceeebc5d18d3b66cb6c825d339bbd8b3b39da0c6c9b0e4b54f261d0",
+  "insights": "- Despite FC Goa firing 17 shots (9 on target) and holding 47 % possession, their expected‑goals (xG) of 0.76 was lower than Chennaiyin’s 0.91 xG from just 9 shots, showing Chennaiyin’s chances were of higher quality – a clear example that more shots don’t always mean better chances.  \n- The match ended 1‑1, but Chennaiyin’s lone goal came from a 0.91‑xG set‑up, while Goa’s equaliser came from a 0.18‑xG chance by Christian Borrego; the disparity highlights how a single high‑quality chance can outweigh many lower‑quality ones.  \n- Chennaiyin made 453 passes (367 accurate, 81 % accuracy) compared with Goa’s 394 passes (316 accurate, 80 % accuracy), yet Goa still had more clearances (17 vs 25) and interceptions (14 vs 8), indicating a more defensive focus that didn’t translate into more effective attacking chances.  \n- Both sides had 17 and 9 total shots, but Goa’s shots were spread 8 inside the box and 9 outside, while Chennaiyin’s 7 inside and only 2 outside; the box‑concentration difference may explain the higher xG for Chennaiyin.  \n- Data gaps (no shot‑location details or individual pass‑type breakdowns) mean we can’t pinpoint exact moments where xG diverged from reality, so while xG points to Chennaiyin’s quality of chances, it shouldn’t be treated as a guaranteed predictor of the final score.",
+  "generated_at_utc": "2026-10-12T19:18:36+00:00"
 }
