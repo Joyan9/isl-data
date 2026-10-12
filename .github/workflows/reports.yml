@@ -40,6 +40,7 @@ jobs:
 
       - name: Generate cached AI insights
         if: env.GROQ_API_KEY != ''
+        continue-on-error: true
         env:
           MAX_AI_CALLS: ${{ inputs.max_ai_calls || '3' }}
         run: |

@@ -70,6 +70,9 @@ The AI analysis is deliberately conservative for the Groq free tier:
   workflow input can lower or raise this limit.
 - If `GROQ_API_KEY` is unavailable, the workflow skips new AI requests but still builds
   and deploys the static site and charts.
+- If an individual Groq request fails, the failure is logged and stored for that match,
+  but the workflow continues to build and deploy the static site. Failed matches are not
+  treated as valid cache entries and can be retried on a later run.
 
 Add the key as a GitHub repository secret:
 

@@ -139,6 +139,7 @@ def generate_insights(data_dir: Path, insights_dir: Path, max_calls: int = 3,
             text = _request_insight(client, model, context)
         except Exception as exc:
             stats["failed"] += 1
+            print(f"{match_id}: GROQ request failed ({type(exc).__name__}: {exc})")
             failure = {
                 "match_id": match_id,
                 "status": "failed",

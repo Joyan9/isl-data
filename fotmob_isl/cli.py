@@ -157,6 +157,12 @@ def cmd_analyze(args) -> int:
         model=args.model, delay_seconds=args.delay_seconds, force=args.force,
     )
     print(" ".join(f"{key}={value}" for key, value in stats.items()))
+    if stats["failed"]:
+        print(
+            "One or more optional AI insight requests failed. "
+            "Failure details were saved under the insights directory; "
+            "the static site can still be built."
+        )
     return 1 if stats["failed"] else 0
 
 
