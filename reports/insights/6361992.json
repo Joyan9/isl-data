@@ -1,0 +1,7 @@
+{
+  "match_id": "6361992",
+  "status": "failed",
+  "source_hash": "1dca6c20865f27f53b527de899dbca2739a9087a5450902cb3f80ccaf4aabd86",
+  "error": "APIStatusError: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-20b` in organization `org_01kmfmwa3tehv8zhv9a5sr1m8k` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 126985, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "generated_at_utc": "2026-10-12T19:10:44+00:00"
+}
