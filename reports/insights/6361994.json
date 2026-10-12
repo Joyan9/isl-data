@@ -1,0 +1,8 @@
+{
+  "match_id": "6361994",
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
+  "source_hash": "a9bc52a0aafc792797cb6c4947a6d31ee2aed49d21991119ac88f01d394fa686",
+  "insights": "- Home’s 9 shots with 6 on target and one goal came from a single big chance, matching their xG of 0.78 – a reminder that xG tells us about the quality of chances, not a guarantee of scoring.  \n- Mohun Bagan fired 25 shots (14 on target) and had a higher expected goal count (1.48 total, 1.41 on target) but still scored none, showing that many shots can still be ineffective if the chances lack quality.  \n- The team that had 55 % possession (Mohun Bagan) also had 384 passes with 301 accurate (≈ 78 %) versus Northeast United’s 315 passes with 245 accurate (≈ 78 %); possession and passing accuracy didn’t translate into a goal for the visitors.  \n- With only one big chance, the home side’s 1‑0 win demonstrates that a single high‑quality opportunity can outweigh a higher overall chance volume.  \n- Because the data set is limited to these aggregated numbers, we should treat these observations with caution when trying to explain the match’s nuances.",
+  "generated_at_utc": "2026-10-12T19:26:19+00:00"
+}
