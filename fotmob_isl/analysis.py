@@ -296,8 +296,7 @@ def _render_insights(text: str) -> str:
         line = line.strip()
         if not line or line.lower() == "insights":
             continue
-        if line.startswith(("- ", "* ")):
-            line = line[2:].strip()
+        line = line.lstrip("-–—•* \t")
         bullets.append(f"<li>{_escape(line)}</li>")
     if not bullets:
         return "<p class='muted'>Insights are not available for this match yet.</p>"
@@ -349,7 +348,7 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path) -> int:
 <style>
 :root{{--ink:#172033;--muted:#687386;--paper:#fff;--bg:#eef2f7;--blue:#2563eb;--red:#e11d48;--gold:#f59e0b}}
 *{{box-sizing:border-box}}body{{margin:0;background:linear-gradient(135deg,#eef2ff,#f8fafc 55%,#fff7ed);color:var(--ink);font:16px/1.55 system-ui,-apple-system,sans-serif}}main{{max-width:980px;margin:auto;padding:22px 16px 56px}}a{{color:var(--blue);text-decoration:none;font-weight:650}}.back{{display:inline-block;margin-bottom:18px}}.hero{{background:linear-gradient(120deg,#111827,#253b75);color:#fff;border-radius:24px;padding:30px 26px;box-shadow:0 18px 45px #17203325}}.eyebrow{{color:#bfdbfe;text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:800}}h1{{font-size:clamp(28px,5vw,52px);line-height:1.05;margin:12px 0}}.score{{font-size:42px;font-weight:850;letter-spacing:.04em}}.meta{{color:#dbeafe;margin-top:12px}}.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0}}.card,.panel{{background:var(--paper);border-radius:18px;padding:20px;box-shadow:0 8px 28px #17203312}}.card-label,.chart-title{{color:var(--muted);font-size:13px;font-weight:750;text-transform:uppercase;letter-spacing:.06em}}.metric{{font-size:29px;font-weight:850;margin-top:5px}}.section-title{{font-size:24px;margin:34px 0 12px}}.chart{{padding:16px 0;border-bottom:1px solid #e5e7eb}}.bar-row{{display:grid;grid-template-columns:minmax(90px,1fr) minmax(110px,3fr) 45px;gap:10px;align-items:center;margin-top:12px;font-size:14px}}.team-label{{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}.track{{background:#e5e7eb;height:12px;border-radius:20px;overflow:hidden}}.bar{{display:block;height:100%;border-radius:20px}}.home{{background:linear-gradient(90deg,#60a5fa,var(--blue))}}.away{{background:linear-gradient(90deg,#fb7185,var(--red))}}.insights{{border-left:5px solid var(--gold)}}.insight-list{{padding-left:22px;margin-bottom:0}}.insight-list li{{margin:10px 0}}.muted{{color:var(--muted)}}.explain{{color:var(--muted);font-size:14px;margin-top:0}}
-</style></head><body><main><a class="back" href="../index.html">← All matches</a>
+</style></head><body><main><a class="back" href="./index.html">← All matches</a>
 <section class="hero"><div class="eyebrow">Indian Super League · Match { _escape(match_id) }</div><h1>{_escape(home)} <span>vs</span> {_escape(away)}</h1><div class="score">{_escape(home_score)} <span>–</span> {_escape(away_score)}</div><div class="meta">{_escape(match_date)} · {_escape(venue)}</div></section>
 <h2 class="section-title">The quick read</h2><div class="grid">
 <div class="card"><div class="card-label">Chance quality</div><div class="metric">{_display(home_xg)} – {_display(away_xg)}</div><div class="explain">xG estimates how good the chances were.</div></div>

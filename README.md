@@ -98,7 +98,8 @@ python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --m
 python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site
 ```
 
-The workflow deploys `site/` using GitHub Pages. In the repository settings, configure
+The workflow deploys `site/` using GitHub Pages. The repository site is available at
+`https://joyan9.github.io/isl-data/`. In the repository settings, configure
 **Pages -> Build and deployment -> Source** as **GitHub Actions**. `site/` is generated
 output and is intentionally ignored; it is uploaded as a Pages artifact during the
 workflow rather than committed to the repository.
