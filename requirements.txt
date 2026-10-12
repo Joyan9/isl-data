@@ -1,2 +1,4 @@
 pandas>=2.2
 requests>=2.32
+openai>=1.68
+python-dotenv>=1.0

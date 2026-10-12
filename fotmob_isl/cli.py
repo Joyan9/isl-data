@@ -8,7 +8,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import parse
+from .analysis import build_site, generate_insights
 from .client import FetchError, fetch_fixtures_props, fetch_match_details, fetch_vote, make_session
+from .reporting import write_match_reports
 from .store import save_raw, upsert_csv
 from .validate import validate_match
 
@@ -136,6 +138,33 @@ def cmd_ingest(args) -> int:
     return 1 if failed else 0
 
 
+def cmd_report(args) -> int:
+    """Generate markdown match reports from the ingested CSV tables."""
+    if args.match_id is None and not args.match_ids and not args.all:
+        raise SystemExit("report needs --match-id, --match-ids, or --all")
+
+    match_ids = [args.match_id] if args.match_id is not None else list(args.match_ids or [])
+    if args.all:
+        match_ids = None
+    paths = write_match_reports(Path(args.data_dir), Path(args.output_dir), match_ids)
+    print(f"wrote {len(paths)} reports to {args.output_dir}")
+    return 0
+
+
+def cmd_analyze(args) -> int:
+    stats = generate_insights(
+        Path(args.data_dir), Path(args.insights_dir), max_calls=args.max_ai_calls,
+        model=args.model, delay_seconds=args.delay_seconds, force=args.force,
+    )
+    print(" ".join(f"{key}={value}" for key, value in stats.items()))
+    return 1 if stats["failed"] else 0
+
+
+def cmd_site(args) -> int:
+    print(f"wrote {build_site(Path(args.data_dir), Path(args.insights_dir), Path(args.site_dir))} match pages")
+    return 0
+
+
 def main(argv=None) -> None:
     p = argparse.ArgumentParser(prog="fotmob_isl")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -158,6 +187,29 @@ def main(argv=None) -> None:
     i.add_argument("--league-id", type=int, default=ISL_LEAGUE_ID)
     i.add_argument("--skip-existing", action="store_true")
     i.set_defaults(func=cmd_ingest)
+
+    r = sub.add_parser("report", help="generate markdown match reports from the ingested CSV tables")
+    r.add_argument("--match-id", type=int, help="generate a single report for this match")
+    r.add_argument("--match-ids", type=int, nargs="+", help="generate reports for these matches")
+    r.add_argument("--all", action="store_true", help="generate reports for every match in matches.csv")
+    r.add_argument("--data-dir", default="data")
+    r.add_argument("--output-dir", default="reports")
+    r.set_defaults(func=cmd_report)
+
+    a = sub.add_parser("analyze", help="generate cached Groq insights for ingested matches")
+    a.add_argument("--data-dir", default="data")
+    a.add_argument("--insights-dir", default="reports/insights")
+    a.add_argument("--max-ai-calls", type=int, default=3)
+    a.add_argument("--model", default="openai/gpt-oss-20b")
+    a.add_argument("--delay-seconds", type=float, default=2.0)
+    a.add_argument("--force", action="store_true")
+    a.set_defaults(func=cmd_analyze)
+
+    w = sub.add_parser("site", help="build the static match site")
+    w.add_argument("--data-dir", default="data")
+    w.add_argument("--insights-dir", default="reports/insights")
+    w.add_argument("--site-dir", default="site")
+    w.set_defaults(func=cmd_site)
 
     args = p.parse_args(argv)
     if args.cmd == "ingest" and not (args.match_ids or args.discover):

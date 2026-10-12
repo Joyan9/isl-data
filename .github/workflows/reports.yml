@@ -1,0 +1,76 @@
+name: reports
+
+on:
+  workflow_run:
+    workflows: ["ingest"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      max_ai_calls:
+        description: "Maximum new Groq calls for this run"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reports
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate cached AI insights
+        if: env.GROQ_API_KEY != ''
+        env:
+          MAX_AI_CALLS: ${{ inputs.max_ai_calls || '3' }}
+        run: |
+          python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --max-ai-calls "$MAX_AI_CALLS"
+
+      - name: Note missing Groq key
+        if: env.GROQ_API_KEY == ''
+        run: echo "GROQ_API_KEY is not configured; building charts and pages without new AI calls."
+
+      - name: Build static site
+        run: |
+          python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site
+
+      - name: Commit cached insights
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@github.com"
+          git add reports/insights
+          git diff --cached --quiet || git commit -m "reports: update match insights"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

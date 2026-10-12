@@ -44,10 +44,61 @@ python -m fotmob_isl discover                         # finished match IDs from 
 python -m fotmob_isl ingest --match-ids 6361990 --data-dir scratch
 python -m fotmob_isl ingest --discover --data-dir scratch      # everything finished and not yet ingested
 python -m fotmob_isl ingest --discover --season 2025/2026      # past season (season param unverified)
+python -m fotmob_isl report --match-id 6361990 --data-dir data --output-dir reports
+python -m fotmob_isl report --all --data-dir data --output-dir reports
+python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --max-ai-calls 3
+python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site
 ```
 
 `ingest` skips unfinished matches and anything outside league 9478. Re-ingesting a match replaces its rows, and CSV
 output is sorted and deterministic, so git diffs only show real changes. `--discover` implies `--skip-existing`.
+
+The reporting layer reads the ingested tables and generates a markdown match report for each selected match. This gives a clean bridge between raw extracted data and narrative summaries that can be shared or further automated.
+
+The separate `reports` workflow runs after a successful `ingest` workflow. It first checks `reports/insights/<match_id>.json` and its source-data hash, so an unchanged match never consumes another Groq request. It generates at most three new insights per run by default, spaces calls out, and commits successful insight cache files. Set the repository secret `GROQ_API_KEY` before enabling AI generation. The static GitHub Pages site is built from the CSVs and cached insights; charts remain available even when no API key is configured.
+
+### Groq insights and GitHub Pages
+
+The AI analysis is deliberately conservative for the Groq free tier:
+
+- The `reports` workflow runs after a successful `ingest` workflow, or manually from
+  **Actions -> reports -> Run workflow**.
+- Existing `reports/insights/<match_id>.json` files are reused.
+- Each insight stores a hash of its match context. A match is only sent to Groq again
+  when its source data changes or the analysis is explicitly forced.
+- At most three new Groq requests are made per workflow run by default. The manual
+  workflow input can lower or raise this limit.
+- If `GROQ_API_KEY` is unavailable, the workflow skips new AI requests but still builds
+  and deploys the static site and charts.
+
+Add the key as a GitHub repository secret:
+
+1. Open the repository on GitHub.
+2. Go to **Settings -> Secrets and variables -> Actions**.
+3. Select **New repository secret**.
+4. Set the name to `GROQ_API_KEY` and paste the key as the value.
+
+For local runs, create an untracked `.env` file in the repository root:
+
+```env
+GROQ_API_KEY=gsk_your_key_here
+```
+
+Never commit `.env` or put the key in source code, workflow files, README files, or
+generated site content. `.env` is ignored by `.gitignore`. If a key is accidentally
+shared or committed, revoke it in Groq immediately and create a replacement.
+
+Run the analysis and site generation locally with:
+
+```bash
+python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --max-ai-calls 3
+python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site
+```
+
+The workflow deploys `site/` using GitHub Pages. In the repository settings, configure
+**Pages -> Build and deployment -> Source** as **GitHub Actions**. `site/` is generated
+output and is intentionally ignored; it is uploaded as a Pages artifact during the
+workflow rather than committed to the repository.
 
 The workflow is designed to populate the repo with real data over time, but a fresh checkout may start empty until the scheduled run or a manual run has completed. The `.github/workflows/ingest.yml` job is the live data-producing path.
 
