@@ -1,0 +1,259 @@
+match_id,league_season_id,round,match_date_utc,period,team_id,team_name,side,group_key,stat_key,stat_title,value_num,value_pct,value_raw
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,clearances,Clearances,21,,21
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,interceptions,Interceptions,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,keeper_saves,Keeper saves,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,matchstats.headers.tackles,Tackles,18,,18
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,shot_blocks,Blocks,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,discipline,fouls,Fouls committed,13,,13
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,discipline,red_cards,Red cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,discipline,yellow_cards,Yellow cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,aerials_won,Aerial duels won,10,48,10 (48%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,dribbles_succeeded,Successful dribbles,5,33,5 (33%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,duel_won,Duels won,39,,39
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,ground_duels_won,Ground duels won,29,48,29 (48%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals,Expected goals (xG),1.48,,1.48
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_non_penalty,xG non-penalty,1.48,,1.48
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_on_target,xG on target (xGOT),1.41,,1.41
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_open_play,xG open play,1.12,,1.12
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_set_play,xG set play,0.36,,0.36
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,Offsides,Offsides,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,accurate_crosses,Accurate crosses,8,29,8 (29%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,accurate_passes,Accurate passes,301,78,301 (78%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,long_balls_accurate,Accurate long balls,34,54,34 (54%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,opposition_half_passes,Opposition half,178,,178
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,own_half_passes,Own half,123,,123
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,passes,Passes,384,,384
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,player_throws,Throws,22,,22
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,touches_opp_box,Touches in opposition box,29,,29
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,ShotsOffTarget,Shots off target,11,,11
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,ShotsOnTarget,Shots on target,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,blocked_shots,Blocked shots,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,shots_inside_box,Shots inside box,11,,11
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,shots_outside_box,Shots outside box,14,,14
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,shots_woodwork,Hit woodwork,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,total_shots,Total shots,25,,25
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,BallPossesion,Ball possession,55,,55
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,ShotsOnTarget,Shots on target,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,accurate_passes,Accurate passes,301,78,301 (78%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,big_chance,Big chances,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,corners,Corners,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,expected_goals,Expected goals (xG),1.48,,1.48
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,total_shots,Total shots,25,,25
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,touches_opp_box,Touches in opposition box,29,,29
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,yellow_cards,Yellow cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,defence,clearances,Clearances,28,,28
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,defence,interceptions,Interceptions,17,,17
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,defence,keeper_saves,Keeper saves,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,defence,matchstats.headers.tackles,Tackles,14,,14
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,defence,shot_blocks,Blocks,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,discipline,fouls,Fouls committed,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,discipline,red_cards,Red cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,discipline,yellow_cards,Yellow cards,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,duels,aerials_won,Aerial duels won,11,52,11 (52%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,duels,dribbles_succeeded,Successful dribbles,4,29,4 (29%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,duels,duel_won,Duels won,42,,42
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,duels,ground_duels_won,Ground duels won,31,52,31 (52%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,expected_goals,expected_goals,Expected goals (xG),0.76,,0.76
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,expected_goals,expected_goals_non_penalty,xG non-penalty,0.76,,0.76
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,expected_goals,expected_goals_on_target,xG on target (xGOT),1.14,,1.14
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,expected_goals,expected_goals_open_play,xG open play,0.65,,0.65
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,expected_goals,expected_goals_set_play,xG set play,0.1,,0.10
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,Offsides,Offsides,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,accurate_crosses,Accurate crosses,0,0,0 (0%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,accurate_passes,Accurate passes,245,78,245 (78%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,long_balls_accurate,Accurate long balls,23,51,23 (51%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,opposition_half_passes,Opposition half,105,,105
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,own_half_passes,Own half,140,,140
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,passes,Passes,315,,315
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,player_throws,Throws,12,,12
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,passes,touches_opp_box,Touches in opposition box,14,,14
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,ShotsOffTarget,Shots off target,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,ShotsOnTarget,Shots on target,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,blocked_shots,Blocked shots,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,shots_inside_box,Shots inside box,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,shots_outside_box,Shots outside box,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,shots,total_shots,Total shots,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,BallPossesion,Ball possession,45,,45
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,ShotsOnTarget,Shots on target,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,accurate_passes,Accurate passes,245,78,245 (78%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,big_chance,Big chances,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,corners,Corners,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,expected_goals,Expected goals (xG),0.76,,0.76
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,total_shots,Total shots,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,touches_opp_box,Touches in opposition box,14,,14
+6361994,949788,1,2026-10-12T14:00:00.000Z,All,578656,Northeast United FC,home,top_stats,yellow_cards,Yellow cards,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,clearances,Clearances,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,interceptions,Interceptions,7,,7
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,keeper_saves,Keeper saves,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,matchstats.headers.tackles,Tackles,10,,10
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,shot_blocks,Blocks,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,discipline,fouls,Fouls committed,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,discipline,red_cards,Red cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,discipline,yellow_cards,Yellow cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,aerials_won,Aerial duels won,3,30,3 (30%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,dribbles_succeeded,Successful dribbles,3,38,3 (38%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,duel_won,Duels won,19,,19
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,ground_duels_won,Ground duels won,16,43,16 (43%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals,Expected goals (xG),0.34,,0.34
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_non_penalty,xG non-penalty,0.34,,0.34
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_on_target,xG on target (xGOT),0.02,,0.02
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_open_play,xG open play,0.19,,0.19
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_set_play,xG set play,0.14,,0.14
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,Offsides,Offsides,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,accurate_crosses,Accurate crosses,5,29,5 (29%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,accurate_passes,Accurate passes,155,79,155 (79%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,long_balls_accurate,Accurate long balls,18,56,18 (56%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,opposition_half_passes,Opposition half,85,,85
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,own_half_passes,Own half,70,,70
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,passes,Passes,196,,196
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,player_throws,Throws,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,touches_opp_box,Touches in opposition box,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,ShotsOffTarget,Shots off target,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,ShotsOnTarget,Shots on target,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,blocked_shots,Blocked shots,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,shots_inside_box,Shots inside box,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,shots_outside_box,Shots outside box,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,shots_woodwork,Hit woodwork,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,total_shots,Total shots,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,BallPossesion,Ball possession,52,,52
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,ShotsOnTarget,Shots on target,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,accurate_passes,Accurate passes,155,79,155 (79%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,big_chance,Big chances,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,corners,Corners,6,,6
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,expected_goals,Expected goals (xG),0.34,,0.34
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,total_shots,Total shots,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,touches_opp_box,Touches in opposition box,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,yellow_cards,Yellow cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,defence,clearances,Clearances,11,,11
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,defence,interceptions,Interceptions,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,defence,keeper_saves,Keeper saves,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,defence,matchstats.headers.tackles,Tackles,9,,9
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,defence,shot_blocks,Blocks,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,discipline,fouls,Fouls committed,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,discipline,red_cards,Red cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,discipline,yellow_cards,Yellow cards,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,duels,aerials_won,Aerial duels won,7,70,7 (70%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,duels,dribbles_succeeded,Successful dribbles,4,44,4 (44%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,duels,duel_won,Duels won,28,,28
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,duels,ground_duels_won,Ground duels won,21,57,21 (57%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,expected_goals,expected_goals,Expected goals (xG),0.09,,0.09
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,expected_goals,expected_goals_non_penalty,xG non-penalty,0.09,,0.09
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,expected_goals,expected_goals_on_target,xG on target (xGOT),0,,0.00
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,expected_goals,expected_goals_open_play,xG open play,0.09,,0.09
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,expected_goals,expected_goals_set_play,xG set play,0,,0.00
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,Offsides,Offsides,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,accurate_crosses,Accurate crosses,0,0,0 (0%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,accurate_passes,Accurate passes,149,79,149 (79%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,long_balls_accurate,Accurate long balls,10,43,10 (43%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,opposition_half_passes,Opposition half,67,,67
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,own_half_passes,Own half,82,,82
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,passes,Passes,189,,189
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,player_throws,Throws,7,,7
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,passes,touches_opp_box,Touches in opposition box,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,ShotsOffTarget,Shots off target,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,ShotsOnTarget,Shots on target,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,blocked_shots,Blocked shots,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,shots_inside_box,Shots inside box,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,shots_outside_box,Shots outside box,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,shots,total_shots,Total shots,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,BallPossesion,Ball possession,48,,48
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,ShotsOnTarget,Shots on target,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,accurate_passes,Accurate passes,149,79,149 (79%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,big_chance,Big chances,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,corners,Corners,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,expected_goals,Expected goals (xG),0.09,,0.09
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,total_shots,Total shots,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,touches_opp_box,Touches in opposition box,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,FirstHalf,578656,Northeast United FC,home,top_stats,yellow_cards,Yellow cards,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,clearances,Clearances,12,,12
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,interceptions,Interceptions,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,keeper_saves,Keeper saves,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,matchstats.headers.tackles,Tackles,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,shot_blocks,Blocks,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,discipline,fouls,Fouls committed,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,discipline,red_cards,Red cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,discipline,yellow_cards,Yellow cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,aerials_won,Aerial duels won,7,64,7 (64%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,dribbles_succeeded,Successful dribbles,2,29,2 (29%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,duel_won,Duels won,20,,20
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,ground_duels_won,Ground duels won,13,57,13 (57%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals,Expected goals (xG),1.14,,1.14
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_non_penalty,xG non-penalty,1.14,,1.14
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_on_target,xG on target (xGOT),1.39,,1.39
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_open_play,xG open play,0.93,,0.93
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_set_play,xG set play,0.21,,0.21
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,Offsides,Offsides,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,accurate_crosses,Accurate crosses,3,27,3 (27%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,accurate_passes,Accurate passes,146,78,146 (78%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,long_balls_accurate,Accurate long balls,16,52,16 (52%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,opposition_half_passes,Opposition half,93,,93
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,own_half_passes,Own half,53,,53
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,passes,Passes,188,,188
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,player_throws,Throws,16,,16
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,touches_opp_box,Touches in opposition box,20,,20
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,ShotsOffTarget,Shots off target,7,,7
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,ShotsOnTarget,Shots on target,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,blocked_shots,Blocked shots,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,shots_inside_box,Shots inside box,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,shots_outside_box,Shots outside box,8,,8
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,shots_woodwork,Hit woodwork,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,total_shots,Total shots,16,,16
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,BallPossesion,Ball possession,59,,59
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,ShotsOnTarget,Shots on target,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,accurate_passes,Accurate passes,146,78,146 (78%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,big_chance,Big chances,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,corners,Corners,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,expected_goals,Expected goals (xG),1.14,,1.14
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,total_shots,Total shots,16,,16
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,touches_opp_box,Touches in opposition box,20,,20
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,yellow_cards,Yellow cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,defence,clearances,Clearances,17,,17
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,defence,interceptions,Interceptions,12,,12
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,defence,keeper_saves,Keeper saves,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,defence,matchstats.headers.tackles,Tackles,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,defence,shot_blocks,Blocks,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,discipline,fouls,Fouls committed,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,discipline,red_cards,Red cards,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,discipline,yellow_cards,Yellow cards,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,duels,aerials_won,Aerial duels won,4,36,4 (36%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,duels,dribbles_succeeded,Successful dribbles,0,0,0 (0%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,duels,duel_won,Duels won,14,,14
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,duels,ground_duels_won,Ground duels won,10,43,10 (43%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,expected_goals,expected_goals,Expected goals (xG),0.67,,0.67
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,expected_goals,expected_goals_non_penalty,xG non-penalty,0.67,,0.67
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,expected_goals,expected_goals_on_target,xG on target (xGOT),1.14,,1.14
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,expected_goals,expected_goals_open_play,xG open play,0.57,,0.57
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,expected_goals,expected_goals_set_play,xG set play,0.1,,0.10
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,Offsides,Offsides,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,accurate_crosses,Accurate crosses,0,0,0 (0%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,accurate_passes,Accurate passes,96,76,96 (76%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,long_balls_accurate,Accurate long balls,13,59,13 (59%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,opposition_half_passes,Opposition half,38,,38
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,own_half_passes,Own half,58,,58
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,passes,Passes,126,,126
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,player_throws,Throws,5,,5
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,passes,touches_opp_box,Touches in opposition box,11,,11
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,ShotsOffTarget,Shots off target,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,ShotsOnTarget,Shots on target,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,blocked_shots,Blocked shots,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,shots_inside_box,Shots inside box,4,,4
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,shots_outside_box,Shots outside box,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,shots,total_shots,Total shots,7,,7
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,BallPossesion,Ball possession,41,,41
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,ShotsOnTarget,Shots on target,2,,2
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,accurate_passes,Accurate passes,96,76,96 (76%)
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,big_chance,Big chances,1,,1
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,corners,Corners,3,,3
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,expected_goals,Expected goals (xG),0.67,,0.67
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,total_shots,Total shots,7,,7
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,touches_opp_box,Touches in opposition box,11,,11
+6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,yellow_cards,Yellow cards,3,,3

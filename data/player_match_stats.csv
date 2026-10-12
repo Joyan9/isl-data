@@ -1,0 +1,1046 @@
+match_id,player_id,player_name,team_id,team_name,is_goalkeeper,shirt_number,usual_position,group_key,group_title,stat_key,stat_title,value_num,value_total,value_type
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,attack,Attack,long_balls_accurate,Accurate long balls,5,9,fractionWithPercentage
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,attack,Attack,passes_into_final_third,Passes into final third,9,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,attack,Attack,touches,Touches,69,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,attack,Attack,touches_opp_box,Touches in opposition box,2,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,defensive_actions,Defensive actions,7,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,interceptions,Interceptions,3,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,recoveries,Recoveries,5,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,defense,Defense,shot_blocks,Blocks,1,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,duels,Duels,aerials_won,Aerial duels won,0,2,fractionWithPercentage
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,duels,Duels,duel_lost,Duels lost,5,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,duels,Duels,duel_won,Duels won,4,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,duels,Duels,ground_duels_won,Ground duels won,4,7,fractionWithPercentage
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,accurate_passes,Accurate passes,44,53,fractionWithPercentage
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,defensive_actions,Defensive actions,7,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.04,,double
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,rating_title,FotMob rating,7.01,,double
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1013298,Apuia,578651,Mohun Bagan SG,False,45,2,top_stats,Top stats,xg_and_xa,xG + xA,0.04,,double
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,accurate_passes,Accurate passes,22,31,fractionWithPercentage
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,clearances,Clearances,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,duel_won,Duels won,2,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,expected_goals_on_target_faced,xGOT faced,1.41,,double
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,fouls,Fouls committed,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,goals_conceded,Goals conceded,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,goals_prevented,Goals prevented,1.41,,double
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,ground_duels_won,Ground duels won,2,2,fractionWithPercentage
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,interceptions,Interceptions,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,keeper_diving_save,Diving save,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,keeper_high_claim,High claim,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,keeper_sweeper,Acted as sweeper,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,long_balls_accurate,Accurate long balls,8,16,fractionWithPercentage
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,passes_into_final_third,Passes into final third,4,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,player_throws,Throws,12,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,punches,Punches,0,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,rating_title,FotMob rating,8.71,,double
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,recoveries,Recoveries,17,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,saves,Saves,6,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,saves_inside_box,Saves inside box,3,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,touches,Touches,51,,integer
+6361994,1023968,Gurmeet Singh,578656,Northeast United FC,True,1,0,top_stats,Top stats,was_fouled,Was fouled,2,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,accurate_crosses,Accurate crosses,0,1,fractionWithPercentage
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.26,,double
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,long_balls_accurate,Accurate long balls,1,2,fractionWithPercentage
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,touches,Touches,23,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,attack,Attack,touches_opp_box,Touches in opposition box,3,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,clearances,Clearances,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,recoveries,Recoveries,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,duels,Duels,aerials_won,Aerial duels won,3,3,fractionWithPercentage
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,duels,Duels,duel_won,Duels won,4,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,duels,Duels,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,ShotsOnTarget,Shots on target,2,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,accurate_passes,Accurate passes,11,14,fractionWithPercentage
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.02,,double
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.26,,double
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.27,,double
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,minutes_played,Minutes played,31,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,rating_title,FotMob rating,6.65,,double
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,shot_accuracy,Shot accuracy,2,3,fractionWithPercentage
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,total_shots,Total shots,4,,integer
+6361994,1044242,Miguel Figueira,578651,Mohun Bagan SG,False,10,2,top_stats,Top stats,xg_and_xa,xG + xA,0.28,,double
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,accurate_crosses,Accurate crosses,0,3,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,corners,Corners,3,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.07,,double
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,long_balls_accurate,Accurate long balls,1,5,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,passes_into_final_third,Passes into final third,7,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,touches,Touches,55,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,attack,Attack,touches_opp_box,Touches in opposition box,2,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,defensive_actions,Defensive actions,4,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,recoveries,Recoveries,4,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,defense,Defense,shot_blocks,Blocks,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,duels,Duels,duel_lost,Duels lost,3,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,duels,Duels,duel_won,Duels won,5,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,duels,Duels,ground_duels_won,Ground duels won,5,8,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,duels,Duels,was_fouled,Was fouled,3,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,accurate_passes,Accurate passes,22,33,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,defensive_actions,Defensive actions,4,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.07,,double
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.45,,double
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,rating_title,FotMob rating,7.14,,double
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1056888,Antonio Moyano,578656,Northeast United FC,False,8,2,top_stats,Top stats,xg_and_xa,xG + xA,0.08,,double
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,accurate_crosses,Accurate crosses,0,2,fractionWithPercentage
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.03,,double
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,long_balls_accurate,Accurate long balls,4,5,fractionWithPercentage
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,passes_into_final_third,Passes into final third,4,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,touches,Touches,36,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,recoveries,Recoveries,6,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,duels,Duels,aerials_won,Aerial duels won,2,4,fractionWithPercentage
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,duels,Duels,duel_lost,Duels lost,5,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,duels,Duels,duel_won,Duels won,4,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,duels,Duels,fouls,Fouls committed,2,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,duels,Duels,ground_duels_won,Ground duels won,2,5,fractionWithPercentage
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,accurate_passes,Accurate passes,19,23,fractionWithPercentage
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.03,,double
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.03,,double
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.02,,double
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,minutes_played,Minutes played,73,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,rating_title,FotMob rating,6.36,,double
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,shot_accuracy,Shot accuracy,1,2,fractionWithPercentage
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361994,1106906,Samir Zeljković,578651,Mohun Bagan SG,False,8,2,top_stats,Top stats,xg_and_xa,xG + xA,0.06,,double
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,Offsides,Offsides,3,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,accurate_crosses,Accurate crosses,0,4,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,dribbles_succeeded,Successful dribbles,3,4,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.25,,double
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,long_balls_accurate,Accurate long balls,2,2,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,touches,Touches,42,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,attack,Attack,touches_opp_box,Touches in opposition box,7,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,clearances,Clearances,2,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,defensive_actions,Defensive actions,3,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,recoveries,Recoveries,1,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,duels,Duels,aerials_won,Aerial duels won,3,4,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,duels,Duels,duel_lost,Duels lost,4,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,duels,Duels,duel_won,Duels won,9,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,duels,Duels,ground_duels_won,Ground duels won,6,9,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,duels,Duels,was_fouled,Was fouled,2,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,accurate_passes,Accurate passes,13,19,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,blocked_shots,Blocked shots,3,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,defensive_actions,Defensive actions,3,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.05,,double
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.25,,double
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,rating_title,FotMob rating,7.17,,double
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,total_shots,Total shots,4,,integer
+6361994,1121521,Alaeddine Ajaraie,578656,Northeast United FC,False,14,3,top_stats,Top stats,xg_and_xa,xG + xA,0.3,,double
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,accurate_crosses,Accurate crosses,1,2,fractionWithPercentage
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.06,,double
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,long_balls_accurate,Accurate long balls,2,4,fractionWithPercentage
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,passes_into_final_third,Passes into final third,9,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,touches,Touches,55,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,clearances,Clearances,3,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,defensive_actions,Defensive actions,6,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,recoveries,Recoveries,4,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,defense,Defense,shot_blocks,Blocks,1,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,duels,Duels,aerials_won,Aerial duels won,1,2,fractionWithPercentage
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,duels,Duels,duel_lost,Duels lost,2,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,duels,Duels,duel_won,Duels won,2,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,duels,Duels,ground_duels_won,Ground duels won,1,2,fractionWithPercentage
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,ShotsOffTarget,Shots off target,2,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,accurate_passes,Accurate passes,20,31,fractionWithPercentage
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,defensive_actions,Defensive actions,6,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.04,,double
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.06,,double
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,rating_title,FotMob rating,6.47,,double
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,shot_accuracy,Shot accuracy,0,2,fractionWithPercentage
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361994,1207577,Mehtab Singh,578651,Mohun Bagan SG,False,5,1,top_stats,Top stats,xg_and_xa,xG + xA,0.1,,double
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.03,,double
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,attack,Attack,long_balls_accurate,Accurate long balls,8,10,fractionWithPercentage
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,attack,Attack,passes_into_final_third,Passes into final third,9,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,attack,Attack,touches,Touches,54,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,clearances,Clearances,8,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,defensive_actions,Defensive actions,12,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,headed_clearance,Headed clearance,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,recoveries,Recoveries,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,defense,Defense,shot_blocks,Blocks,1,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,duels,Duels,duel_lost,Duels lost,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,duels,Duels,duel_won,Duels won,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,duels,Duels,ground_duels_won,Ground duels won,2,3,fractionWithPercentage
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,ShotsOffTarget,Shots off target,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,accurate_passes,Accurate passes,36,40,fractionWithPercentage
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,defensive_actions,Defensive actions,12,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.03,,double
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,rating_title,FotMob rating,7.02,,double
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,shot_accuracy,Shot accuracy,0,2,fractionWithPercentage
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361994,1223772,Alberto Rodríguez,578651,Mohun Bagan SG,False,21,1,top_stats,Top stats,xg_and_xa,xG + xA,0.04,,double
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,Offsides,Offsides,1,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,accurate_crosses,Accurate crosses,0,2,fractionWithPercentage
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,dribbles_succeeded,Successful dribbles,0,2,fractionWithPercentage
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.36,,double
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,touches,Touches,15,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,attack,Attack,touches_opp_box,Touches in opposition box,2,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,clearances,Clearances,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,recoveries,Recoveries,2,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,duels,Duels,aerials_won,Aerial duels won,0,2,fractionWithPercentage
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,duels,Duels,duel_lost,Duels lost,6,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,duels,Duels,ground_duels_won,Ground duels won,0,4,fractionWithPercentage
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,accurate_passes,Accurate passes,0,5,fractionWithPercentage
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.36,,double
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.69,,double
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,goals,Goals,1,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,minutes_played,Minutes played,45,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,rating_title,FotMob rating,6.9,,double
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1235052,Jithin Madathil Subran,578656,Northeast United FC,False,80,3,top_stats,Top stats,xg_and_xa,xG + xA,0.36,,double
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,attack,Attack,passes_into_final_third,Passes into final third,4,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,attack,Attack,touches,Touches,10,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,clearances,Clearances,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,duels,Duels,duel_lost,Duels lost,1,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,duels,Duels,duel_won,Duels won,1,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,duels,Duels,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,accurate_passes,Accurate passes,5,7,fractionWithPercentage
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,minutes_played,Minutes played,23,,integer
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,rating_title,FotMob rating,6.25,,double
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,1238984,Parthib Gogoi,578656,Northeast United FC,False,11,3,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,attack,Attack,long_balls_accurate,Accurate long balls,0,1,fractionWithPercentage
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,attack,Attack,touches,Touches,15,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,clearances,Clearances,1,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,duels,Duels,duel_lost,Duels lost,2,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,duels,Duels,duel_won,Duels won,2,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,duels,Duels,ground_duels_won,Ground duels won,2,3,fractionWithPercentage
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,duels,Duels,was_fouled,Was fouled,2,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,accurate_passes,Accurate passes,5,6,fractionWithPercentage
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,minutes_played,Minutes played,68,,integer
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,rating_title,FotMob rating,6.31,,double
+6361994,1288207,Ethyan González,578656,Northeast United FC,False,9,3,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,Offsides,Offsides,1,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,accurate_crosses,Accurate crosses,0,1,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,corners,Corners,1,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,dribbles_succeeded,Successful dribbles,1,4,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.03,,double
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,touches,Touches,43,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,clearances,Clearances,3,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,defensive_actions,Defensive actions,11,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,headed_clearance,Headed clearance,2,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,interceptions,Interceptions,6,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,recoveries,Recoveries,6,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,duels,Duels,aerials_won,Aerial duels won,3,4,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,duels,Duels,duel_lost,Duels lost,5,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,duels,Duels,duel_won,Duels won,6,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,duels,Duels,ground_duels_won,Ground duels won,3,7,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,accurate_passes,Accurate passes,18,20,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,defensive_actions,Defensive actions,11,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.04,,double
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.03,,double
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,rating_title,FotMob rating,7.84,,double
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1314661,Abdul Rabeeh,578656,Northeast United FC,False,7,3,top_stats,Top stats,xg_and_xa,xG + xA,0.07,,double
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,attack,Attack,dispossessed,Dispossessed,2,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,attack,Attack,touches,Touches,41,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,clearances,Clearances,2,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,defensive_actions,Defensive actions,8,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,dribbled_past,Dribbled past,2,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,recoveries,Recoveries,5,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,defense,Defense,shot_blocks,Blocks,2,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,duels,Duels,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,duels,Duels,duel_lost,Duels lost,4,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,duels,Duels,duel_won,Duels won,5,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,duels,Duels,ground_duels_won,Ground duels won,4,8,fractionWithPercentage
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,accurate_passes,Accurate passes,14,20,fractionWithPercentage
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,defensive_actions,Defensive actions,8,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,minutes_played,Minutes played,89,,integer
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,rating_title,FotMob rating,7.24,,double
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,1411183,Nikhil Barla,578656,Northeast United FC,False,66,1,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,accurate_crosses,Accurate crosses,0,3,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,dribbles_succeeded,Successful dribbles,2,5,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.08,,double
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,long_balls_accurate,Accurate long balls,2,8,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,passes_into_final_third,Passes into final third,17,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,touches,Touches,87,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,attack,Attack,touches_opp_box,Touches in opposition box,3,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,clearances,Clearances,2,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,defensive_actions,Defensive actions,6,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,recoveries,Recoveries,11,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,duels,Duels,duel_lost,Duels lost,4,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,duels,Duels,duel_won,Duels won,5,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,duels,Duels,ground_duels_won,Ground duels won,5,9,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,accurate_passes,Accurate passes,51,60,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,chances_created,Chances created,4,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,defensive_actions,Defensive actions,6,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.24,,double
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.08,,double
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.11,,double
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,rating_title,FotMob rating,8.25,,double
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1446602,Tekcham Abhishek Singh,578651,Mohun Bagan SG,False,27,1,top_stats,Top stats,xg_and_xa,xG + xA,0.32,,double
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.02,,double
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,attack,Attack,long_balls_accurate,Accurate long balls,0,2,fractionWithPercentage
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,attack,Attack,touches,Touches,50,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,clearances,Clearances,3,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,defensive_actions,Defensive actions,6,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,interceptions,Interceptions,2,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,recoveries,Recoveries,5,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,duels,Duels,duel_lost,Duels lost,2,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,duels,Duels,duel_won,Duels won,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,duels,Duels,ground_duels_won,Ground duels won,1,2,fractionWithPercentage
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,accurate_passes,Accurate passes,29,33,fractionWithPercentage
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,defensive_actions,Defensive actions,6,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.1,,double
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.02,,double
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,rating_title,FotMob rating,7.2,,double
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1458985,Muthu Irulandi Mayakkannan,578656,Northeast United FC,False,13,2,top_stats,Top stats,xg_and_xa,xG + xA,0.12000000000000001,,double
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,attack,Attack,Offsides,Offsides,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.11,,double
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,attack,Attack,shots_woodwork,Hit woodwork,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,attack,Attack,touches,Touches,5,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,clearances,Clearances,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,defense,Defense,shot_blocks,Blocks,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,duels,Duels,duel_lost,Duels lost,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,duels,Duels,ground_duels_won,Ground duels won,0,1,fractionWithPercentage
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,accurate_passes,Accurate passes,1,2,fractionWithPercentage
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.11,,double
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,minutes_played,Minutes played,5,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,1523494,Suhail Ahmad Bhat,578651,Mohun Bagan SG,False,72,3,top_stats,Top stats,xg_and_xa,xG + xA,0.12,,double
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,attack,Attack,passes_into_final_third,Passes into final third,6,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,attack,Attack,touches,Touches,31,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,clearances,Clearances,1,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,defensive_actions,Defensive actions,4,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,dribbled_past,Dribbled past,2,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,recoveries,Recoveries,4,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,duels,Duels,duel_lost,Duels lost,5,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,duels,Duels,duel_won,Duels won,3,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,duels,Duels,ground_duels_won,Ground duels won,3,8,fractionWithPercentage
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,accurate_passes,Accurate passes,18,22,fractionWithPercentage
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,defensive_actions,Defensive actions,4,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,minutes_played,Minutes played,67,,integer
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,rating_title,FotMob rating,6.79,,double
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,1543967,Macarton Louis Nickson,578656,Northeast United FC,False,15,2,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,attack,Attack,long_balls_accurate,Accurate long balls,2,8,fractionWithPercentage
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,attack,Attack,touches,Touches,52,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,clearances,Clearances,5,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,defensive_actions,Defensive actions,9,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,headed_clearance,Headed clearance,4,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,interceptions,Interceptions,2,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,recoveries,Recoveries,3,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,defense,Defense,shot_blocks,Blocks,2,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,duels,Duels,aerials_won,Aerial duels won,1,4,fractionWithPercentage
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,duels,Duels,duel_lost,Duels lost,6,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,duels,Duels,duel_won,Duels won,2,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,duels,Duels,ground_duels_won,Ground duels won,1,4,fractionWithPercentage
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,accurate_passes,Accurate passes,30,38,fractionWithPercentage
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,defensive_actions,Defensive actions,9,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,rating_title,FotMob rating,6.98,,double
+6361994,1601070,Pramveer,578656,Northeast United FC,False,4,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,attack,Attack,touches,Touches,7,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,clearances,Clearances,2,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,recoveries,Recoveries,1,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,accurate_passes,Accurate passes,3,4,fractionWithPercentage
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,minutes_played,Minutes played,11,,integer
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,rating_title,FotMob rating,6.25,,double
+6361994,2362432,Saikom Thoiba,578656,Northeast United FC,False,26,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,accurate_crosses,Accurate crosses,0,1,fractionWithPercentage
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.05,,double
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,passes_into_final_third,Passes into final third,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,touches,Touches,11,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,clearances,Clearances,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,recoveries,Recoveries,2,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,duels,Duels,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,duels,Duels,duel_won,Duels won,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,accurate_passes,Accurate passes,3,7,fractionWithPercentage
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.02,,double
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.05,,double
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,minutes_played,Minutes played,22,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,rating_title,FotMob rating,6.56,,double
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,280242,Nikola Ninković,578656,Northeast United FC,False,10,3,top_stats,Top stats,xg_and_xa,xG + xA,0.07,,double
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,attack,Attack,long_balls_accurate,Accurate long balls,3,4,fractionWithPercentage
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,attack,Attack,passes_into_final_third,Passes into final third,6,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,attack,Attack,touches,Touches,61,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,clearances,Clearances,4,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,defensive_actions,Defensive actions,9,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,interceptions,Interceptions,2,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,recoveries,Recoveries,2,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,defense,Defense,shot_blocks,Blocks,2,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,duels,Duels,aerials_won,Aerial duels won,2,2,fractionWithPercentage
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,duels,Duels,duel_lost,Duels lost,1,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,duels,Duels,duel_won,Duels won,3,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,duels,Duels,ground_duels_won,Ground duels won,1,2,fractionWithPercentage
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,accurate_passes,Accurate passes,44,47,fractionWithPercentage
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,defensive_actions,Defensive actions,9,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,minutes_played,Minutes played,79,,integer
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,rating_title,FotMob rating,7.35,,double
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,295198,Eneko Satrústegui,578656,Northeast United FC,False,19,1,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,accurate_crosses,Accurate crosses,0,1,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,dribbles_succeeded,Successful dribbles,1,2,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.35,,double
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,long_balls_accurate,Accurate long balls,0,2,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,shots_woodwork,Hit woodwork,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,touches,Touches,27,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,attack,Attack,touches_opp_box,Touches in opposition box,6,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,clearances,Clearances,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,recoveries,Recoveries,2,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,duels,Duels,duel_lost,Duels lost,4,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,duels,Duels,duel_won,Duels won,2,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,duels,Duels,fouls,Fouls committed,2,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,duels,Duels,ground_duels_won,Ground duels won,2,5,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,ShotsOffTarget,Shots off target,2,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,accurate_passes,Accurate passes,7,17,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.02,,double
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.35,,double
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.9,,double
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,minutes_played,Minutes played,59,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,rating_title,FotMob rating,6.67,,double
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,shot_accuracy,Shot accuracy,1,3,fractionWithPercentage
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,total_shots,Total shots,4,,integer
+6361994,363351,Lee Erwin,578651,Mohun Bagan SG,False,19,3,top_stats,Top stats,xg_and_xa,xG + xA,0.37,,double
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,accurate_crosses,Accurate crosses,2,6,fractionWithPercentage
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,corners,Corners,4,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,3,fractionWithPercentage
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.24,,double
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,long_balls_accurate,Accurate long balls,1,3,fractionWithPercentage
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,touches,Touches,46,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,attack,Attack,touches_opp_box,Touches in opposition box,5,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,recoveries,Recoveries,4,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,duels,Duels,aerials_won,Aerial duels won,0,2,fractionWithPercentage
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,duels,Duels,duel_lost,Duels lost,6,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,duels,Duels,duel_won,Duels won,2,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,duels,Duels,ground_duels_won,Ground duels won,2,6,fractionWithPercentage
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,accurate_passes,Accurate passes,23,30,fractionWithPercentage
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,blocked_shots,Blocked shots,2,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.22,,double
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.24,,double
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,minutes_played,Minutes played,85,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,rating_title,FotMob rating,6.52,,double
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361994,496054,Dejan Dražić,578651,Mohun Bagan SG,False,71,2,top_stats,Top stats,xg_and_xa,xG + xA,0.45999999999999996,,double
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,attack,Attack,touches,Touches,4,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,clearances,Clearances,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,recoveries,Recoveries,1,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,duels,Duels,duel_won,Duels won,1,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,duels,Duels,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,accurate_passes,Accurate passes,3,3,fractionWithPercentage
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,minutes_played,Minutes played,1,,integer
+6361994,581115,Redeem Tlang,578656,Northeast United FC,False,22,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,accurate_passes,Accurate passes,18,21,fractionWithPercentage
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,clearances,Clearances,1,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,expected_goals_on_target_faced,xGOT faced,1.14,,double
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,fouls,Fouls committed,0,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,goals_conceded,Goals conceded,1,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,goals_prevented,Goals prevented,0.14,,double
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,interceptions,Interceptions,0,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,keeper_diving_save,Diving save,0,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,keeper_high_claim,High claim,1,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,keeper_sweeper,Acted as sweeper,2,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,long_balls_accurate,Accurate long balls,5,8,fractionWithPercentage
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,matchstats.headers.tackles,Tackles,0,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,passes_into_final_third,Passes into final third,1,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,player_throws,Throws,3,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,punches,Punches,0,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,rating_title,FotMob rating,6.5,,double
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,recoveries,Recoveries,5,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,saves,Saves,1,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,saves_inside_box,Saves inside box,0,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,touches,Touches,27,,integer
+6361994,627033,Vishal Kaith,578651,Mohun Bagan SG,True,1,0,top_stats,Top stats,was_fouled,Was fouled,,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.01,,double
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,attack,Attack,long_balls_accurate,Accurate long balls,4,6,fractionWithPercentage
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,attack,Attack,touches,Touches,36,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,clearances,Clearances,4,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,defensive_actions,Defensive actions,5,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,recoveries,Recoveries,4,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,duels,Duels,aerials_won,Aerial duels won,2,2,fractionWithPercentage
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,duels,Duels,duel_lost,Duels lost,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,duels,Duels,duel_won,Duels won,3,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,duels,Duels,ground_duels_won,Ground duels won,1,2,fractionWithPercentage
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,accurate_passes,Accurate passes,26,28,fractionWithPercentage
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,defensive_actions,Defensive actions,5,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.01,,double
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,rating_title,FotMob rating,6.8,,double
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,629820,Rahul Bheke,578651,Mohun Bagan SG,False,2,1,top_stats,Top stats,xg_and_xa,xG + xA,0.02,,double
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,accurate_crosses,Accurate crosses,1,2,fractionWithPercentage
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,corners,Corners,1,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,long_balls_accurate,Accurate long balls,2,4,fractionWithPercentage
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,touches,Touches,14,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,recoveries,Recoveries,1,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,duels,Duels,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,duels,Duels,duel_lost,Duels lost,1,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,duels,Duels,duel_won,Duels won,1,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,duels,Duels,ground_duels_won,Ground duels won,0,1,fractionWithPercentage
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,accurate_passes,Accurate passes,6,10,fractionWithPercentage
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.07,,double
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,minutes_played,Minutes played,17,,integer
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,rating_title,FotMob rating,6.29,,double
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,824073,Anirudh Thapa,578651,Mohun Bagan SG,False,6,2,top_stats,Top stats,xg_and_xa,xG + xA,0.07,,double
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,Offsides,Offsides,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,accurate_crosses,Accurate crosses,2,8,fractionWithPercentage
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,corners,Corners,3,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,dispossessed,Dispossessed,2,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,dribbles_succeeded,Successful dribbles,1,1,fractionWithPercentage
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.02,,double
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,touches,Touches,24,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,clearances,Clearances,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,dribbled_past,Dribbled past,2,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,recoveries,Recoveries,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,duels,Duels,duel_lost,Duels lost,6,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,duels,Duels,duel_won,Duels won,3,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,duels,Duels,ground_duels_won,Ground duels won,3,8,fractionWithPercentage
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,accurate_passes,Accurate passes,8,8,fractionWithPercentage
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.08,,double
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.02,,double
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,minutes_played,Minutes played,45,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,rating_title,FotMob rating,6.02,,double
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,831502,Lallianzuala Chhangte,578651,Mohun Bagan SG,False,9,3,top_stats,Top stats,xg_and_xa,xG + xA,0.1,,double
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,attack,Attack,passes_into_final_third,Passes into final third,1,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,attack,Attack,touches,Touches,15,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,clearances,Clearances,1,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,duels,Duels,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,duels,Duels,duel_won,Duels won,2,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,duels,Duels,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,accurate_passes,Accurate passes,7,12,fractionWithPercentage
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,assists,Assists,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.34,,double
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,goals,Goals,0,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,minutes_played,Minutes played,45,,integer
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,rating_title,FotMob rating,6.29,,double
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,875589,Manvir Singh,578651,Mohun Bagan SG,False,11,3,top_stats,Top stats,xg_and_xa,xG + xA,0.34,,double
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,accurate_crosses,Accurate crosses,2,3,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.06,,double
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,long_balls_accurate,Accurate long balls,0,2,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,touches,Touches,29,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,recoveries,Recoveries,2,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,duels,Duels,duel_lost,Duels lost,2,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,duels,Duels,ground_duels_won,Ground duels won,0,2,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,accurate_passes,Accurate passes,13,19,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,blocked_shots,Blocked shots,2,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.22,,double
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.06,,double
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.11,,double
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,minutes_played,Minutes played,31,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,rating_title,FotMob rating,6.47,,double
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,total_shots,Total shots,3,,integer
+6361994,899959,Liston Colaço,578651,Mohun Bagan SG,False,7,2,top_stats,Top stats,xg_and_xa,xG + xA,0.28,,double
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,attack,Attack,dribbles_succeeded,Successful dribbles,1,2,fractionWithPercentage
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.24,,double
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,attack,Attack,passes_into_final_third,Passes into final third,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,attack,Attack,touches,Touches,25,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,attack,Attack,touches_opp_box,Touches in opposition box,5,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,clearances,Clearances,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,defensive_actions,Defensive actions,4,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,interceptions,Interceptions,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,recoveries,Recoveries,3,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,duels,Duels,duel_lost,Duels lost,3,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,duels,Duels,duel_won,Duels won,5,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,duels,Duels,ground_duels_won,Ground duels won,5,7,fractionWithPercentage
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,accurate_passes,Accurate passes,11,16,fractionWithPercentage
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,assists,Assists,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,defensive_actions,Defensive actions,4,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.21,,double
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.24,,double
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,goals,Goals,0,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,minutes_played,Minutes played,59,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,rating_title,FotMob rating,6.88,,double
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361994,912832,Sahal Abdul Samad,578651,Mohun Bagan SG,False,18,2,top_stats,Top stats,xg_and_xa,xG + xA,0.44999999999999996,,double
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,attack,Attack,long_balls_accurate,Accurate long balls,2,2,fractionWithPercentage
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,attack,Attack,passes_into_final_third,Passes into final third,1,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,attack,Attack,touches,Touches,27,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,clearances,Clearances,5,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,defensive_actions,Defensive actions,7,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,headed_clearance,Headed clearance,3,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,interceptions,Interceptions,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,recoveries,Recoveries,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,defense,Defense,shot_blocks,Blocks,1,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,duels,Duels,duel_won,Duels won,1,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,duels,Duels,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,accurate_passes,Accurate passes,16,20,fractionWithPercentage
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,assists,Assists,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,defensive_actions,Defensive actions,7,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,goals,Goals,0,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,minutes_played,Minutes played,45,,integer
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,rating_title,FotMob rating,6.76,,double
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
