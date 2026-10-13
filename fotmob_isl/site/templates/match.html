@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ item.bundle.home_name }} v {{ item.bundle.away_name }} | ISL Fan Reports</title>
+<meta name="description" content="Fan-friendly match report for {{ item.bundle.home_name }} versus {{ item.bundle.away_name }}.">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body><main class="container" style="--home: {{ item.bundle.home_color }}; --away: {{ item.bundle.away_color }}">
+<a class="back" href="index.html">← All matches</a>
+<section class="hero">
+<div class="hero-teams">
+<div class="hero-team">{% if item.home_logo %}<img class="crest" src="{{ item.home_logo }}" alt="{{ item.bundle.home_name }} crest">{% else %}<span class="logo-fallback home-logo">{{ initials(item.bundle.home_name) }}</span>{% endif %}<div><strong>{{ item.bundle.home_name }}</strong><div class="scorers">{% for goal in item.scorers_home %}{{ goal.label|replace(" (own goal)", " (og)") }}{% if goal.minute is not none %} {{ goal.minute }}'{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</div></div></div>
+<div class="hero-score"><strong>{{ item.bundle.score("home") }} – {{ item.bundle.score("away") }}</strong></div>
+<div class="hero-team away-team"><div><strong>{{ item.bundle.away_name }}</strong><div class="scorers">{% for goal in item.scorers_away %}{{ goal.label|replace(" (own goal)", " (og)") }}{% if goal.minute is not none %} {{ goal.minute }}'{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</div></div>{% if item.away_logo %}<img class="crest" src="{{ item.away_logo }}" alt="{{ item.bundle.away_name }} crest">{% else %}<span class="logo-fallback away-logo">{{ initials(item.bundle.away_name) }}</span>{% endif %}</div>
+</div>
+<div class="chips"><span>{{ item.bundle.kickoff_ist() }}</span>{% if item.bundle.match.venue_name %}<span>{{ item.bundle.match.venue_name }}</span>{% endif %}{% if item.bundle.match.round %}<span>Round {{ item.bundle.match.round }}</span>{% endif %}{% if item.bundle.match.weather_description %}<span>{{ item.bundle.match.weather_description }}</span>{% endif %}{% if item.bundle.match.referee_name %}<span>Referee: {{ item.bundle.match.referee_name }}</span>{% endif %}</div>
+</section>
+
+<section class="panel"><h2>At a glance</h2><div class="metric-grid">
+<div><span class="label">xG</span><strong class="metric num">{{ item.home_xg or "—" }} – {{ item.away_xg or "—" }}</strong></div>
+<div><span class="label">Shots (on target)</span><strong class="metric num">{{ item.home_shots or "—" }} ({{ item.home_on_target or "—" }}) – {{ item.away_shots or "—" }} ({{ item.away_on_target or "—" }})</strong></div>
+<div class="metric-wide"><span class="label">Possession</span>{{ split_bar(item.home_possession, item.away_possession, item.bundle.home_name, item.bundle.away_name, item.bundle.home_color, item.bundle.away_color)|safe }}</div>
+<div><span class="label">Accurate passes</span><strong class="metric num">{{ item.home_passes or "—" }} – {{ item.away_passes or "—" }}</strong></div>
+</div></section>
+
+<section class="panel">{{ xg_race(shots, item.bundle.home_name, item.bundle.away_name, item.bundle.home_color, item.bundle.away_color)|safe }}{{ shot_map(shots, item.bundle.home_name, item.bundle.away_name, item.bundle.home_color, item.bundle.away_color)|safe }}</section>
+
+{% if item.tape %}<section class="panel"><h2>Tale of the tape</h2>{% set ns = namespace(group="") %}{% for row in item.tape %}{% if row.group != ns.group %}<h3 class="tape-group">{{ row.group }}</h3>{% set ns.group = row.group %}{% endif %}{{ tape_bar(row.title, row.home, row.away, item.bundle.home_name, item.bundle.away_name, item.bundle.home_color, item.bundle.away_color)|safe }}{% endfor %}</section>{% endif %}
+
+{% if item.performers_home or item.performers_away %}<section class="panel"><h2>Top performers</h2><div class="performer-columns">{% for side, performers, name in [("home", item.performers_home, item.bundle.home_name), ("away", item.performers_away, item.bundle.away_name)] %}{% if performers %}<div><h3>{{ name }}</h3>{% for player in performers %}<div class="performer"><strong>{{ player.name }}</strong><span class="rating rating-{{ (player.rating|float // 2)|int }}">{{ player.rating or "—" }}</span><small>{{ player.minutes or "—" }} min · {{ player.goals or 0 }} goals · {{ player.assists or 0 }} assists{% if player.is_goalkeeper %} · {{ player.saves or 0 }} saves{% endif %}</small></div>{% endfor %}</div>{% endif %}{% endfor %}</div></section>{% endif %}
+
+{% set ref = item.referee %}{% if ref.name %}<section class="panel"><h2>Referee lens</h2><p><strong>{{ ref.name }}</strong></p><div class="ref-grid"><span>Fouls <b>{{ ref.fouls or "—" }}</b><small>match / {{ ref.fouls_avg or "—" }} avg / {{ ref.fouls_league or "—" }} league</small></span><span>Yellow cards <b>{{ ref.yellow or "—" }}</b><small>match / {{ ref.yellow_avg or "—" }} avg / {{ ref.yellow_league or "—" }} league</small></span><span>Red cards <b>{{ ref.red or "—" }}</b><small>match / snapshot average</small></span><span>Cards per foul <b>{{ ref.cards_per_foul or "—" }}</b></span></div><small>FotMob snapshot at fetch time.</small></section>{% endif %}
+
+{% if item.poll %}<section class="panel"><h2>Fan poll</h2><div class="poll"><span style="width:{{ item.poll.fan_vote_home }}%;background:var(--home)">Home {{ item.poll.fan_vote_home }}%</span><span style="width:{{ item.poll.fan_vote_draw }}%;background:var(--muted)">Draw {{ item.poll.fan_vote_draw }}%</span><span style="width:{{ item.poll.fan_vote_away }}%;background:var(--away)">Away {{ item.poll.fan_vote_away }}%</span></div><p class="muted">Actual result: {{ item.bundle.home_name if item.bundle.score("home")|int > item.bundle.score("away")|int else item.bundle.away_name if item.bundle.score("away")|int > item.bundle.score("home")|int else "Draw" }}</p></section>{% endif %}
+
+{% if item.insights %}<details class="panel ai-notes"><summary>AI-generated notes, may contain errors</summary><ul>{% for insight in item.insights %}<li>{{ insight }}</li>{% endfor %}</ul></details>{% endif %}
+<footer>Data: FotMob · Generated {{ generated_at }}</footer>
+</main></body></html>

@@ -8,9 +8,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import parse
-from .analysis import build_site, generate_insights
+from .analysis import generate_insights
 from .client import FetchError, fetch_fixtures_props, fetch_match_details, fetch_vote, make_session
 from .reporting import write_match_reports
+from .site import build_site
 from .store import save_raw, upsert_csv
 from .validate import validate_match
 
@@ -167,7 +168,7 @@ def cmd_analyze(args) -> int:
 
 
 def cmd_site(args) -> int:
-    print(f"wrote {build_site(Path(args.data_dir), Path(args.insights_dir), Path(args.site_dir))} match pages")
+    print(f"wrote {build_site(Path(args.data_dir), Path(args.insights_dir), Path(args.site_dir), Path(args.logos_dir))} match pages")
     return 0
 
 
@@ -215,6 +216,7 @@ def main(argv=None) -> None:
     w.add_argument("--data-dir", default="data")
     w.add_argument("--insights-dir", default="reports/insights")
     w.add_argument("--site-dir", default="site")
+    w.add_argument("--logos-dir", default="data/team_logos")
     w.set_defaults(func=cmd_site)
 
     args = p.parse_args(argv)

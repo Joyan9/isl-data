@@ -47,7 +47,7 @@ python -m fotmob_isl ingest --discover --season 2025/2026      # past season (se
 python -m fotmob_isl report --match-id 6361990 --data-dir data --output-dir reports
 python -m fotmob_isl report --all --data-dir data --output-dir reports
 python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --max-ai-calls 3
-python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site
+python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site --logos-dir data/team_logos
 ```
 
 `ingest` skips unfinished matches and anything outside league 9478. Re-ingesting a match replaces its rows, and CSV
@@ -95,7 +95,7 @@ Run the analysis and site generation locally with:
 
 ```bash
 python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --max-ai-calls 3
-python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site
+python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site --logos-dir data/team_logos
 ```
 
 The workflow deploys `site/` using GitHub Pages. The repository site is available at
@@ -103,6 +103,12 @@ The workflow deploys `site/` using GitHub Pages. The repository site is availabl
 **Pages -> Build and deployment -> Source** as **GitHub Actions**. `site/` is generated
 output and is intentionally ignored; it is uploaded as a Pages artifact during the
 workflow rather than committed to the repository.
+
+The site renderer lives in `fotmob_isl/site/`. It uses autoescaped Jinja2 templates,
+one shared `site/assets/style.css`, inline SVG charts (no JavaScript), and copied team
+logos. If a logo is missing, the match page displays a team-initials badge instead.
+Kickoff times are shown in Indian Standard Time. The `--logos-dir` option can point to
+another directory of image assets when building locally.
 
 The workflow is designed to populate the repo with real data over time, but a fresh checkout may start empty until the scheduled run or a manual run has completed. The `.github/workflows/ingest.yml` job is the live data-producing path.
 

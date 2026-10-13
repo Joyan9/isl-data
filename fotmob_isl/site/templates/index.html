@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ISL Fan Reports | Matches and league table</title>
+<meta name="description" content="Indian Super League match results, fan-friendly reports, and a current league table.">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body><main class="container">
+<header class="site-header"><p class="kicker">Indian Super League</p><h1>Matches, made simple.</h1>
+<p class="lede">Friendly match stories, useful charts, and fan-level insights — no spreadsheet required.</p>
+<label class="filter-label" for="team-filter">Filter by team</label>
+<select id="team-filter" class="team-filter" aria-describedby="filter-help"><option value="">All teams</option>{% for team in league_table %}<option value="{{ team.name }}">{{ team.name }}</option>{% endfor %}</select>
+<p id="filter-help" class="muted">Choose a team to show only their matches. The page also works without JavaScript.</p></header>
+<section class="match-list" aria-label="Matches">{% for round in rounds %}<div class="round-group"><h2>Round {{ round.name }}</h2><div class="match-grid">{% for item in round.matches %}<a class="match-card match-row" data-home="{{ item.bundle.home_name }}" data-away="{{ item.bundle.away_name }}" href="{{ item.bundle.match_id }}.html">
+<span class="date">{{ item.bundle.kickoff_ist() }}</span>
+<div class="teams"><span class="team-side">{% if item.home_logo %}<img src="{{ item.home_logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge home-logo">{{ item.home_initials }}</span>{% endif %}<strong>{{ item.bundle.home_name }}</strong></span><span class="score">{{ item.bundle.score("home") }} – {{ item.bundle.score("away") }}</span><span class="team-side away-side"><strong>{{ item.bundle.away_name }}</strong>{% if item.away_logo %}<img src="{{ item.away_logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge away-logo">{{ item.away_initials }}</span>{% endif %}</span></div>
+<span class="muted venue">{{ item.bundle.match.get("venue_name") or "Venue unavailable" }}</span></a>{% endfor %}</div></div>{% endfor %}</section>
+<section class="panel table-panel"><h2>League table</h2><p class="table-hint">On a small screen, swipe sideways to see every column.</p><div class="table-scroll"><table><caption>Standings calculated from ingested match results</caption><thead><tr><th scope="col">#</th><th scope="col">Team</th><th scope="col">P</th><th scope="col">W</th><th scope="col">D</th><th scope="col">L</th><th scope="col">GF</th><th scope="col">GA</th><th scope="col">GD</th><th scope="col">Pts</th></tr></thead><tbody>{% for team in league_table %}<tr><th scope="row">{{ loop.index }}</th><td class="table-team">{% if team.logo %}<img src="{{ team.logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge home-logo">{{ initials(team.name) }}</span>{% endif %}{{ team.name }}</td><td>{{ team.played }}</td><td>{{ team.wins }}</td><td>{{ team.draws }}</td><td>{{ team.losses }}</td><td>{{ team.gf }}</td><td>{{ team.ga }}</td><td>{{ team.gd }}</td><td><strong>{{ team.points }}</strong></td></tr>{% endfor %}</tbody></table></div></section>
+<footer>Data: FotMob</footer>
+</main><script>
+(() => {
+  const filter = document.querySelector("#team-filter");
+  if (!filter) return;
+  filter.addEventListener("change", () => {
+    const selected = filter.value;
+    document.querySelectorAll(".match-row").forEach((row) => {
+      row.hidden = Boolean(selected && row.dataset.home !== selected && row.dataset.away !== selected);
+    });
+    document.querySelectorAll(".round-group").forEach((group) => {
+      group.hidden = !group.querySelector(".match-row:not([hidden])");
+    });
+  });
+})();
+</script></body></html>
