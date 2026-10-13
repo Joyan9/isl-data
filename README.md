@@ -104,11 +104,14 @@ The workflow deploys `site/` using GitHub Pages. The repository site is availabl
 output and is intentionally ignored; it is uploaded as a Pages artifact during the
 workflow rather than committed to the repository.
 
-The site renderer lives in `fotmob_isl/site/`. It uses autoescaped Jinja2 templates,
-one shared `site/assets/style.css`, inline SVG charts (no JavaScript), and copied team
-logos. If a logo is missing, the match page displays a team-initials badge instead.
-Kickoff times are shown in Indian Standard Time. The `--logos-dir` option can point to
-another directory of image assets when building locally.
+The site renderer lives in `fotmob_isl/site/` and publishes a small non-commercial fan
+site called **Give Indian Football a Chance**. The compare page is currently a
+placeholder; finished match reports live at `matches.html` and retain stable
+`<match_id>.html` URLs. It uses autoescaped Jinja2 templates, one shared dark stylesheet,
+inline SVG xG charts, fixed high-contrast team colours, and copied team logos. If a logo
+is missing, a team-initials badge is used. Kickoff times are shown in Indian Standard
+Time. The `--logos-dir` option can point to another directory of image assets when
+building locally.
 
 The workflow is designed to populate the repo with real data over time, but a fresh checkout may start empty until the scheduled run or a manual run has completed. The `.github/workflows/ingest.yml` job is the live data-producing path.
 

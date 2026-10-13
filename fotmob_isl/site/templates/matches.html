@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Match reports | Give Indian Football a Chance</title>
+<meta name="description" content="Finished Indian Super League match reports with scores, dates, venues, and expected goals.">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body><main class="container">
+<header class="site-header"><nav class="site-nav" aria-label="Primary"><a class="brand" href="index.html">Give Indian Football a Chance</a><span><a href="index.html">Compare</a><a aria-current="page" href="matches.html">Match reports</a></span></nav></header>
+<section class="page-intro"><p class="kicker">The receipts</p><h1>Match reports</h1><p class="lede">Finished games only. The numbers may explain the chaos; they cannot undo it.</p></section>
+<section aria-label="Finished match reports">{% for round in rounds %}<div class="round-group"><h2>Round {{ round.name }}</h2><div class="match-grid">{% for item in round.matches %}<a class="match-card match-row" style="--home: {{ item.bundle.home_color }}; --away: {{ item.bundle.away_color }}; --home-on: {{ item.bundle.home_on_color }}; --away-on: {{ item.bundle.away_on_color }}" href="{{ item.bundle.match_id }}.html">
+<span class="date">{{ item.bundle.kickoff_ist() }}</span><div class="teams"><span class="team-side">{% if item.home_logo %}<img src="{{ item.home_logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge home-logo">{{ item.home_initials }}</span>{% endif %}<strong>{{ item.bundle.home_name }}</strong></span><span class="score">{{ item.bundle.score("home") }} – {{ item.bundle.score("away") }}</span><span class="team-side away-side"><strong>{{ item.bundle.away_name }}</strong>{% if item.away_logo %}<img src="{{ item.away_logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge away-logo">{{ item.away_initials }}</span>{% endif %}</span></div>
+<span class="xg-line">xG {{ item.home_xg or "—" }} – {{ item.away_xg or "—" }}</span><span class="muted venue">{{ item.bundle.match.get("venue_name") or "Venue unavailable" }}</span></a>{% endfor %}</div></div>{% else %}<p class="muted">No finished matches yet. The season is still arguing with the calendar.</p>{% endfor %}</section>
+<footer>Data: FotMob · Unofficial fan project, not affiliated with FotMob or the ISL, non-commercial · <a href="https://github.com/Joyan9/isl-data">Repository</a> · <a href="index.html#how-we-calculate">How we calculate</a><span> · Generated {{ generated_at }}</span></footer>
+</main></body></html>

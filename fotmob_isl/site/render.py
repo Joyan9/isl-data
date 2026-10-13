@@ -10,7 +10,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from ..analysis import _insight_path, _load_cached, context_hash, _match_context
 from ..stat_keys import ACCURATE_PASSES, BALL_POSSESSION, EXPECTED_GOALS, TOTAL_SHOTS
-from .charts import shot_map, split_bar, tape_bar, xg_race
+from .charts import split_bar, tape_bar, xg_race
 from .data import MatchBundle, load_match_bundles
 from .team_colors import TEAM_COLORS
 
@@ -29,36 +29,6 @@ def _display_number(value):
         return None
     number = float(value)
     return int(number) if number.is_integer() else round(number, 2)
-
-
-def _league_table(bundles: list[MatchBundle], logo_paths: dict[str, str]) -> list[dict]:
-    table = {}
-    for bundle in bundles:
-        for side, name in (("home", bundle.home_name), ("away", bundle.away_name)):
-            table.setdefault(name, {
-                "name": name, "logo": logo_paths.get(name), "played": 0, "wins": 0,
-                "draws": 0, "losses": 0, "gf": 0, "ga": 0, "points": 0,
-            })
-        home, away = table[bundle.home_name], table[bundle.away_name]
-        hs = pd.to_numeric(bundle.match.get("home_score"), errors="coerce")
-        aas = pd.to_numeric(bundle.match.get("away_score"), errors="coerce")
-        if pd.isna(hs) or pd.isna(aas):
-            continue
-        hs, aas = int(hs), int(aas)
-        home.update(played=home["played"] + 1, gf=home["gf"] + hs, ga=home["ga"] + aas)
-        away.update(played=away["played"] + 1, gf=away["gf"] + aas, ga=away["ga"] + hs)
-        if hs > aas:
-            home.update(wins=home["wins"] + 1, points=home["points"] + 3)
-            away.update(losses=away["losses"] + 1)
-        elif aas > hs:
-            away.update(wins=away["wins"] + 1, points=away["points"] + 3)
-            home.update(losses=home["losses"] + 1)
-        else:
-            home.update(draws=home["draws"] + 1, points=home["points"] + 1)
-            away.update(draws=away["draws"] + 1, points=away["points"] + 1)
-    for row in table.values():
-        row["gd"] = row["gf"] - row["ga"]
-    return sorted(table.values(), key=lambda row: (-row["points"], -row["gd"], -row["gf"], row["name"]))
 
 
 def _insights(bundle: MatchBundle, insights_dir: Path) -> list[str]:
@@ -102,12 +72,15 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
     env.globals["split_bar"] = split_bar
     env.globals["tape_bar"] = tape_bar
     env.globals["xg_race"] = xg_race
-    env.globals["shot_map"] = shot_map
     env.globals["logo_path"] = lambda name: logo_paths.get(name)
     env.globals["initials"] = _initials
     env.globals["slug"] = _slug
     site_bundles = []
     for bundle in bundles:
+        if pd.isna(pd.to_numeric(bundle.match.get("home_score"), errors="coerce")) or pd.isna(
+            pd.to_numeric(bundle.match.get("away_score"), errors="coerce")
+        ):
+            continue
         home_shots_frame = bundle.shots_for("home")
         away_shots_frame = bundle.shots_for("away")
         site_bundles.append({
@@ -126,8 +99,6 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
             "home_passes": _display_number(bundle.stat("home", ACCURATE_PASSES)),
             "away_passes": _display_number(bundle.stat("away", ACCURATE_PASSES)),
             "tape": bundle.tape(),
-            "performers_home": bundle.performers("home"),
-            "performers_away": bundle.performers("away"),
             "referee": bundle.referee(),
             "poll": bundle.poll(),
             "scorers_home": bundle.scorers("home"),
@@ -148,11 +119,15 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
         if not rounds or rounds[-1]["name"] != round_name:
             rounds.append({"name": round_name, "matches": []})
         rounds[-1]["matches"].append(item)
+    common = {
+        "site_name": "Give Indian Football a Chance",
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
     (site_dir / "index.html").write_text(
-        env.get_template("index.html").render(
-            rounds=rounds,
-            league_table=_league_table(bundles, logo_paths),
-        ), encoding="utf-8"
+        env.get_template("index.html").render(**common), encoding="utf-8"
+    )
+    (site_dir / "matches.html").write_text(
+        env.get_template("matches.html").render(rounds=rounds, **common), encoding="utf-8"
     )
     match_template = env.get_template("match.html")
     for item in site_bundles:
@@ -160,8 +135,8 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
         html = match_template.render(
             item=item,
             goals=bundle.goals(),
-            shots=bundle.chart_shots(),
-            generated_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            shots=bundle.shots[bundle.shots["match_id"].astype(str) == bundle.match_id],
+            **common,
         )
         (site_dir / f"{bundle.match_id}.html").write_text(html, encoding="utf-8")
     return len(site_bundles)

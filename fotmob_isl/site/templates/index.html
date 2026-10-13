@@ -1,33 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ISL Fan Reports | Matches and league table</title>
-<meta name="description" content="Indian Super League match results, fan-friendly reports, and a current league table.">
+<title>Give Indian Football a Chance | Compare clubs</title>
+<meta name="description" content="A fan-made Indian football comparison page. Pick two clubs and start the argument.">
 <link rel="stylesheet" href="assets/style.css"></head>
 <body><main class="container">
-<header class="site-header"><p class="kicker">Indian Super League</p><h1>Matches, made simple.</h1>
-<p class="lede">Friendly match stories, useful charts, and fan-level insights — no spreadsheet required.</p>
-<label class="filter-label" for="team-filter">Filter by team</label>
-<select id="team-filter" class="team-filter" aria-describedby="filter-help"><option value="">All teams</option>{% for team in league_table %}<option value="{{ team.name }}">{{ team.name }}</option>{% endfor %}</select>
-<p id="filter-help" class="muted">Choose a team to show only their matches. The page also works without JavaScript.</p></header>
-<section class="match-list" aria-label="Matches">{% for round in rounds %}<div class="round-group"><h2>Round {{ round.name }}</h2><div class="match-grid">{% for item in round.matches %}<a class="match-card match-row" data-home="{{ item.bundle.home_name }}" data-away="{{ item.bundle.away_name }}" href="{{ item.bundle.match_id }}.html">
-<span class="date">{{ item.bundle.kickoff_ist() }}</span>
-<div class="teams"><span class="team-side">{% if item.home_logo %}<img src="{{ item.home_logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge home-logo">{{ item.home_initials }}</span>{% endif %}<strong>{{ item.bundle.home_name }}</strong></span><span class="score">{{ item.bundle.score("home") }} – {{ item.bundle.score("away") }}</span><span class="team-side away-side"><strong>{{ item.bundle.away_name }}</strong>{% if item.away_logo %}<img src="{{ item.away_logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge away-logo">{{ item.away_initials }}</span>{% endif %}</span></div>
-<span class="muted venue">{{ item.bundle.match.get("venue_name") or "Venue unavailable" }}</span></a>{% endfor %}</div></div>{% endfor %}</section>
-<section class="panel table-panel"><h2>League table</h2><p class="table-hint">On a small screen, swipe sideways to see every column.</p><div class="table-scroll"><table><caption>Standings calculated from ingested match results</caption><thead><tr><th scope="col">#</th><th scope="col">Team</th><th scope="col">P</th><th scope="col">W</th><th scope="col">D</th><th scope="col">L</th><th scope="col">GF</th><th scope="col">GA</th><th scope="col">GD</th><th scope="col">Pts</th></tr></thead><tbody>{% for team in league_table %}<tr><th scope="row">{{ loop.index }}</th><td class="table-team">{% if team.logo %}<img src="{{ team.logo }}" alt="" loading="lazy">{% else %}<span class="mini-badge home-logo">{{ initials(team.name) }}</span>{% endif %}{{ team.name }}</td><td>{{ team.played }}</td><td>{{ team.wins }}</td><td>{{ team.draws }}</td><td>{{ team.losses }}</td><td>{{ team.gf }}</td><td>{{ team.ga }}</td><td>{{ team.gd }}</td><td><strong>{{ team.points }}</strong></td></tr>{% endfor %}</tbody></table></div></section>
-<footer>Data: FotMob</footer>
-</main><script>
-(() => {
-  const filter = document.querySelector("#team-filter");
-  if (!filter) return;
-  filter.addEventListener("change", () => {
-    const selected = filter.value;
-    document.querySelectorAll(".match-row").forEach((row) => {
-      row.hidden = Boolean(selected && row.dataset.home !== selected && row.dataset.away !== selected);
-    });
-    document.querySelectorAll(".round-group").forEach((group) => {
-      group.hidden = !group.querySelector(".match-row:not([hidden])");
-    });
-  });
-})();
-</script></body></html>
+<header class="site-header"><nav class="site-nav" aria-label="Primary"><a class="brand" href="index.html">Give Indian Football a Chance</a><span><a aria-current="page" href="index.html">Compare</a><a href="matches.html">Match reports</a></span></nav></header>
+<section class="placeholder"><p class="kicker">Indian football, with receipts</p><h1>Give Indian Football a Chance</h1><p class="lede">Pick two clubs. Start the argument.</p><p class="muted">The club comparison board is warming up. For now, browse the match reports and bring your own hot takes.</p><a class="button-link" href="matches.html">Read match reports</a></section>
+<section id="how-we-calculate" class="panel how"><h2>How we calculate</h2><p>We use the match data extracted from FotMob. xG is the quality of chances, not a prediction of the score. This is a small, non-commercial fan project: roast the scoreline, never the people.</p></section>
+<footer>Data: FotMob · Unofficial fan project, not affiliated with FotMob or the ISL, non-commercial · <a href="https://github.com/Joyan9/isl-data">Repository</a> · <a href="#how-we-calculate">How we calculate</a><span> · Generated {{ generated_at }}</span></footer>
+</main></body></html>

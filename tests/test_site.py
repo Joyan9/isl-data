@@ -5,10 +5,9 @@ from pathlib import Path
 import pandas as pd
 
 from fotmob_isl import parse
-from fotmob_isl.site.charts import comparison_chart
 from fotmob_isl.site.data import load_match_bundles
 from fotmob_isl.site.render import build_site
-from fotmob_isl.site.team_colors import colors_for
+from fotmob_isl.site.team_colors import TEAM_PALETTE, colors_for
 
 
 FIXTURE = Path(__file__).parent / "fixtures" / "matchDetails_6361990.json.gz"
@@ -53,7 +52,6 @@ def test_site_build_copies_shared_css_and_uses_logo_fallback(tmp_path):
     html = (output / "6361990.html").read_text(encoding="utf-8")
     assert 'href="assets/style.css"' in html
     assert "Bengaluru FC" in html
-    assert "BF" in html
     assert "2.97" in html
     assert "1.85" in html
     assert "3 – 2" in html
@@ -61,15 +59,8 @@ def test_site_build_copies_shared_css_and_uses_logo_fallback(tmp_path):
     assert "Menno Koch (og) 32'" in html
     assert (output / "assets" / "style.css").exists()
     assert "<style>" not in html
-
-
-def test_charts_escape_labels_and_include_team_names():
-    svg = comparison_chart(
-        "Shots", "<Home>", "Away & Co", 3, 1, "#123456", "#654321"
-    )
-    assert "&lt;Home&gt;" in svg
-    assert "Away &amp; Co" in svg
-    assert "#123456" in svg and "#654321" in svg
+    assert "Shot map" not in html
+    assert "Top performers" not in html
 
 
 def test_team_color_clashes_get_a_distinct_away_color():
@@ -77,15 +68,25 @@ def test_team_color_clashes_get_a_distinct_away_color():
     assert home != away
 
 
-def test_index_groups_matches_and_includes_table(tmp_path):
+def test_team_palette_has_fixed_foreground_colours():
+    assert len(TEAM_PALETTE) == 13
+    assert len({entry["color"] for entry in TEAM_PALETTE.values()}) == len(TEAM_PALETTE)
+    assert all(entry["on_color"] in {"#000000", "#ffffff"} for entry in TEAM_PALETTE.values())
+
+
+def test_site_has_compare_placeholder_and_match_reports(tmp_path):
     data_dir = tmp_path / "data"
     data_dir.mkdir()
     _fixture_data(data_dir)
     output = tmp_path / "site"
     build_site(data_dir, tmp_path / "insights", output, tmp_path / "missing-logos")
-    html = (output / "index.html").read_text(encoding="utf-8")
-    assert "Round 1" in html
-    assert "League table" in html
-    assert "Bengaluru FC" in html and "SC Delhi" in html
-    assert 'id="team-filter"' in html
-    assert 'meta name="description"' in html
+    index = (output / "index.html").read_text(encoding="utf-8")
+    matches = (output / "matches.html").read_text(encoding="utf-8")
+    assert "Give Indian Football a Chance" in index
+    assert "Pick two clubs. Start the argument." in index
+    assert "League table" not in index
+    assert "team-filter" not in index
+    assert "Round 1" in matches
+    assert "xG 2.97 – 1.85" in matches
+    assert "6361990.html" in matches
+    assert "Unofficial fan project" in matches

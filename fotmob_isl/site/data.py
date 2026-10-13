@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 
 from ..data import LoadedData, load_data
-from .team_colors import colors_for
+from .team_colors import color_for
 
 IST = ZoneInfo("Asia/Kolkata")
 
@@ -22,6 +22,8 @@ class MatchBundle:
     away_name: str
     home_color: str
     away_color: str
+    home_on_color: str
+    away_on_color: str
 
     @property
     def match_id(self) -> str:
@@ -50,31 +52,6 @@ class MatchBundle:
 
     def scorers(self, side: str) -> list[dict]:
         return [goal for goal in self.goals() if goal["side"] == side]
-
-    def performers(self, side: str) -> list[dict]:
-        team_id = self.match.get("home_team_id" if side == "home" else "away_team_id")
-        rows = self.players[
-            (self.players["match_id"].astype(str) == self.match_id)
-            & (self.players["team_id"].astype(str) == str(team_id))
-        ]
-        result = []
-        for (player_id, name, goalkeeper), group in rows.groupby(
-            ["player_id", "player_name", "is_goalkeeper"], dropna=False
-        ):
-            values = {str(row.stat_key): row.value_num for _, row in group.iterrows()}
-            if not any(pd.notna(values.get(key)) for key in
-                       ("rating_title", "minutes_played", "goals", "assists", "expected_goals",
-                        "expected_assists", "saves")):
-                continue
-            result.append({
-                "player_id": player_id, "name": name, "is_goalkeeper": bool(goalkeeper),
-                "rating": values.get("rating_title"), "minutes": values.get("minutes_played"),
-                "goals": values.get("goals"), "assists": values.get("assists"),
-                "xg": values.get("expected_goals"), "xa": values.get("expected_assists"),
-                "saves": values.get("saves"),
-            })
-        result.sort(key=lambda row: float(pd.to_numeric(row["rating"], errors="coerce") or 0), reverse=True)
-        return result[:3]
 
     def tape(self) -> list[dict]:
         groups = {
@@ -137,15 +114,6 @@ class MatchBundle:
             })
         return result
 
-    def chart_shots(self) -> pd.DataFrame:
-        shots = self.shots[self.shots["match_id"].astype(str) == self.match_id].copy()
-        home_id, away_id = str(self.match.get("home_team_id")), str(self.match.get("away_team_id"))
-        goal_mask = shots["event_type"].fillna("").str.lower().eq("goal")
-        credited = shots["credited_team_id"].astype(str)
-        shots.loc[goal_mask & credited.eq(home_id), "side"] = "home"
-        shots.loc[goal_mask & credited.eq(away_id), "side"] = "away"
-        return shots
-
     def kickoff_ist(self) -> str:
         raw = self.match.get("match_date_utc")
         if not raw:
@@ -161,12 +129,7 @@ class MatchBundle:
 def build_match_bundle(loaded: LoadedData, match: dict, colors: dict[str, str]) -> MatchBundle:
     home = str(match.get("home_team_name") or "Home")
     away = str(match.get("away_team_name") or "Away")
-    home_color, away_color = colors_for(home, away)
-    if colors is not None:
-        home_color = colors.get(home, home_color)
-        away_color = colors.get(away, away_color)
-        if home_color.lower() == away_color.lower():
-            away_color = "#475569"
+    home_palette, away_palette = color_for(home), color_for(away)
     return MatchBundle(
         match=match,
         team_stats=loaded.team_stats,
@@ -174,8 +137,10 @@ def build_match_bundle(loaded: LoadedData, match: dict, colors: dict[str, str]) 
         players=loaded.players,
         home_name=home,
         away_name=away,
-        home_color=home_color,
-        away_color=away_color,
+        home_color=home_palette["color"],
+        away_color=away_palette["color"],
+        home_on_color=home_palette["on_color"],
+        away_on_color=away_palette["on_color"],
     )
 
 

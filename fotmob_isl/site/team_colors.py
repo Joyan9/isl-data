@@ -1,25 +1,30 @@
-"""Hand-tuned ISL palette; sampled logo colors are kept distinct for chart readability."""
+"""Permanent, high-contrast club colours sampled from the logo set and hand-tuned."""
 
-TEAM_COLORS = {
-    "Bengaluru FC": "#0b4ea2",
-    "Chennaiyin FC": "#f59e0b",
-    "Churchill Brothers": "#b91c1c",
-    "East Bengal FC": "#dc2626",
-    "FC Goa": "#f97316",
-    "Inter Kashi": "#7c3aed",
-    "Kerala Blasters FC": "#facc15",
-    "Mohun Bagan SG": "#047857",
-    "Mumbai City FC": "#2563eb",
-    "Northeast United FC": "#7f1d1d",
-    "Odisha FC": "#ea580c",
-    "Punjab FC": "#0891b2",
-    "SC Delhi": "#111827",
+TEAM_PALETTE = {
+    "Bengaluru FC": {"color": "#97b886", "on_color": "#000000"},
+    "Chennaiyin FC": {"color": "#e413ff", "on_color": "#000000"},
+    "Churchill Brothers": {"color": "#fb5a0a", "on_color": "#000000"},
+    "East Bengal FC": {"color": "#07a4ff", "on_color": "#000000"},
+    "FC Goa": {"color": "#f9e3f1", "on_color": "#000000"},
+    "Inter Kashi": {"color": "#feba24", "on_color": "#000000"},
+    "Kerala Blasters FC": {"color": "#39f7ff", "on_color": "#000000"},
+    "Mohun Bagan SG": {"color": "#b07a85", "on_color": "#000000"},
+    "Mumbai City FC": {"color": "#dafc0b", "on_color": "#000000"},
+    "Northeast United FC": {"color": "#0d9a9b", "on_color": "#000000"},
+    "Odisha FC": {"color": "#b1a1f6", "on_color": "#000000"},
+    "Punjab FC": {"color": "#968907", "on_color": "#000000"},
+    "SC Delhi": {"color": "#fefde2", "on_color": "#000000"},
 }
+
+TEAM_COLORS = {name: values["color"] for name, values in TEAM_PALETTE.items()}
 
 
 def colors_for(home: str, away: str) -> tuple[str, str]:
-    home_color = TEAM_COLORS.get(home, "#2563eb")
-    away_color = TEAM_COLORS.get(away, "#e11d48")
-    if home_color.lower() == away_color.lower():
-        away_color = "#475569"
-    return home_color, away_color
+    return (
+        TEAM_PALETTE.get(home, {"color": "#538ae2"})["color"],
+        TEAM_PALETTE.get(away, {"color": "#f05b49"})["color"],
+    )
+
+
+def color_for(name: str) -> dict[str, str]:
+    return TEAM_PALETTE.get(name, {"color": "#538ae2", "on_color": "#000000"})

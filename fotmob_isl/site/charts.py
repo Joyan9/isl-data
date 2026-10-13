@@ -16,12 +16,6 @@ def _text(value, suffix=""):
     return "—" if value is None else f"{int(value) if value.is_integer() else value:g}{suffix}"
 
 
-def comparison_chart(label, home_name, away_name, home, away, home_color, away_color, suffix=""):
-    return (f"<div class='chart' role='img' aria-label='{escape(label)}'><h3>{escape(label)}</h3>"
-            f"{tape_bar(home_name, home, away, home_name, away_name, home_color, away_color)}"
-            f"<span>{escape(_text(home, suffix))} – {escape(_text(away, suffix))}</span></div>")
-
-
 def split_bar(home, away, home_name, away_name, home_color, away_color):
     h, a = _number(home), _number(away)
     if h is None or a is None or h + a <= 0:
@@ -70,25 +64,3 @@ def xg_race(shots, home_name, away_name, home_color, away_color):
             f"<title>Cumulative expected goals by minute</title><desc>{escape(home_name)} and {escape(away_name)} chance quality over time.</desc>"
             f"<line x1='20' y1='130' x2='620' y2='130' stroke='currentColor' opacity='.2'/><line x1='320' y1='20' x2='320' y2='236' stroke='currentColor' stroke-dasharray='4 4' opacity='.45'/>"
             f"{''.join(lines)}{''.join(markers)}</svg><div class='legend'><span style='color:{escape(home_color)}'>● {escape(home_name)}</span> <span style='color:{escape(away_color)}'>● {escape(away_name)}</span> · dashed line: half-time</div></div>")
-
-
-def shot_map(shots, home_name, away_name, home_color, away_color):
-    both_x = shots["x"].dropna()
-    mirror = len(both_x) > 0 and both_x.mean() > 70
-    points = []
-    for _, row in shots.iterrows():
-        x, y = _number(row.get("x")), _number(row.get("y"))
-        if x is None or y is None:
-            continue
-        if mirror and row.get("side") == "away":
-            x, y = 105 - x, 68 - y
-        sx, sy = x / 105 * 100, y / 68 * 100
-        radius = max(2, min(8, (_number(row.get("xg")) or .03) * 18))
-        goal = str(row.get("event_type", "")).lower() == "goal" and not bool(row.get("is_own_goal"))
-        color = home_color if row.get("side") == "home" else away_color
-        minute = _text(row.get("minute"), "'")
-        label = f"{row.get('player_name') or 'Shot'}, {minute}, xG {_text(row.get('xg'))}"
-        points.append(f"<circle cx='{sx:.1f}' cy='{sy:.1f}' r='{radius:.1f}' fill='{escape(color) if goal else 'none'}' stroke='{escape(color)}' stroke-width='1.5'><title>{escape(label)}</title></circle>")
-    return (f"<div class='shot-map'><h3>Shot map</h3><svg viewBox='0 0 100 68' role='img'><title>Shot map</title><desc>Shot locations, sized by expected goals.</desc>"
-            "<rect x='1' y='1' width='98' height='66' fill='none' stroke='currentColor'/><line x1='50' y1='1' x2='50' y2='67' stroke='currentColor' opacity='.4'/><circle cx='50' cy='34' r='9' fill='none' stroke='currentColor' opacity='.4'/>"
-            f"{''.join(points)}</svg><p class='legend'><span style='color:{escape(home_color)}'>● {escape(home_name)}</span> <span style='color:{escape(away_color)}'>● {escape(away_name)}</span></p></div>")
