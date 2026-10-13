@@ -168,7 +168,7 @@ def cmd_analyze(args) -> int:
 
 
 def cmd_site(args) -> int:
-    print(f"wrote {build_site(Path(args.data_dir), Path(args.insights_dir), Path(args.site_dir), Path(args.logos_dir))} match pages")
+    print(f"wrote {build_site(Path(args.data_dir), Path(args.insights_dir), Path(args.site_dir), Path(args.logos_dir), args.base_url)} match pages")
     return 0
 
 
@@ -217,6 +217,7 @@ def main(argv=None) -> None:
     w.add_argument("--insights-dir", default="reports/insights")
     w.add_argument("--site-dir", default="site")
     w.add_argument("--logos-dir", default="data/team_logos")
+    w.add_argument("--base-url", default="https://joyan9.github.io/isl-data/")
     w.set_defaults(func=cmd_site)
 
     args = p.parse_args(argv)
