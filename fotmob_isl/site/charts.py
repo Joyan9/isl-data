@@ -78,7 +78,7 @@ def xg_race(shots, home_name, away_name, home_color, away_color, home_on_color="
     lanes = []
     for goal in goals:
         lane = 0
-        while any(abs(goal["minute"] - previous["minute"]) < 6 and previous["lane"] == lane for previous in lanes):
+        while any(abs(goal["minute"] - previous["minute"]) < 18 and previous["lane"] == lane for previous in lanes):
             lane += 1
         goal["lane"] = lane
         lanes.append(goal)
@@ -92,15 +92,16 @@ def xg_race(shots, home_name, away_name, home_color, away_color, home_on_color="
         detail = f"{label}{' OG' if goal['own'] else ''}"
         pills.append(
             f"<button class='goal-pill lane-{goal['lane']}' data-tooltip='{escape(detail)}' "
-            f"style='left:{goal['x'] / width * 100:.2f}%;--pill:{escape(color)};--pill-on:{escape(on_color)}'>"
+            f"style='left:{goal['x'] / width * 100:.2f}%;top:{goal['lane'] * 25}px;--pill:{escape(color)};--pill-on:{escape(on_color)}'>"
             f"{escape(label)}{' <b>OG</b>' if goal['own'] else ''}</button>"
         )
+    strip_height = (max((goal["lane"] for goal in goals), default=0) + 1) * 25 + 8
     event_data = "".join(
         f"<circle data-team='{goal['side']}' data-minute='{goal['minute']:.1f}' data-value='{escape(goal['name'])}' "
         f"cx='{goal['x']:.1f}' cy='{goal['y']:.1f}' r='5' fill='{escape(home_color if goal['side'] == 'home' else away_color)}'/>"
         for goal in goals
     )
-    return (f"<div class='chart xg-chart'><h3>xG race</h3><div class='goal-strip'>{''.join(pills)}</div>"
+    return (f"<div class='chart xg-chart'><h3>xG race</h3><div class='goal-strip' style='min-height:{strip_height}px'>{''.join(pills)}</div>"
             f"<svg class='xg-race' viewBox='0 0 {width} {height}' role='img' tabindex='0' aria-label='Interactive cumulative expected goals by minute'>"
             f"<title>Cumulative expected goals by minute</title><desc>{escape(home_name)} and {escape(away_name)} chance quality over time.</desc>"
             f"<line x1='20' y1='130' x2='620' y2='130' stroke='currentColor' opacity='.2'/><line x1='320' y1='20' x2='320' y2='236' stroke='currentColor' stroke-dasharray='4 4' opacity='.45'/>"

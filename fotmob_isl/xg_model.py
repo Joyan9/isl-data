@@ -70,6 +70,22 @@ def fair_result(
     return _outcome_probabilities(home, away)
 
 
+def match_xpts(
+    shots: Iterable[Mapping[str, object]],
+    home_team_id: object,
+    away_team_id: object,
+) -> dict[str, float]:
+    """Return expected points (3*win probability + draw probability) per side."""
+    result = fair_result(shots, home_team_id, away_team_id)
+    return {
+        "home": 3.0 * float(result["home_win"]) + float(result["draw"]),
+        "away": 3.0 * float(result["away_win"]) + float(result["draw"]),
+    }
+
+
+xpts_for_match = match_xpts
+
+
 def verdict(probability: float) -> str:
     if probability >= 0.45:
         return "Fair result"

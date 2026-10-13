@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 import shutil
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,6 +16,7 @@ from .data import MatchBundle, load_match_bundles
 from .team_colors import TEAM_COLORS
 from ..xg_model import fair_result, verdict
 from .share_card import make_share_card
+from .comparison import build_comparison_data, write_expected_table_csv
 
 
 def _slug(value: str) -> str:
@@ -139,6 +141,13 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "base_url": base_url.rstrip("/") + "/",
     }
+    comparison = build_comparison_data([item["bundle"] for item in site_bundles], logo_paths)
+    build_date = datetime.now(timezone.utc).date().isoformat()
+    write_expected_table_csv(site_dir / "expected_table.csv", comparison["table"], comparison["generated_at"])
+    write_expected_table_csv(site_dir / f"expected_table_{build_date}.csv", comparison["table"], comparison["generated_at"])
+    common["comparison_json"] = json.dumps(comparison, separators=(",", ":"), ensure_ascii=False)
+    common["table_csv"] = f"expected_table_{build_date}.csv"
+    common["comparison"] = comparison
     (site_dir / "index.html").write_text(
         env.get_template("index.html").render(**common), encoding="utf-8"
     )

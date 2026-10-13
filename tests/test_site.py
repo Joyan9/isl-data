@@ -3,11 +3,12 @@ import json
 from pathlib import Path
 
 import pandas as pd
+import pytest
 
 from fotmob_isl import parse
 from fotmob_isl.site.data import load_match_bundles
 from fotmob_isl.site.render import build_site
-from fotmob_isl.site.team_colors import TEAM_PALETTE, colors_for
+from fotmob_isl.site.team_colors import TEAM_PALETTE, colors_for, color_for, ciede2000, contrast_ratio
 
 
 FIXTURE = Path(__file__).parent / "fixtures" / "matchDetails_6361990.json.gz"
@@ -63,15 +64,39 @@ def test_site_build_copies_shared_css_and_uses_logo_fallback(tmp_path):
     assert "Top performers" not in html
 
 
-def test_team_color_clashes_get_a_distinct_away_color():
-    home, away = colors_for("Unknown Club", "Unknown Club")
-    assert home != away
+def test_unknown_team_palette_is_explicit():
+    with pytest.raises(KeyError):
+        color_for("Unknown Club")
+    with pytest.raises(KeyError):
+        colors_for("Unknown Club", "Bengaluru FC")
 
 
 def test_team_palette_has_fixed_foreground_colours():
     assert len(TEAM_PALETTE) == 13
     assert len({entry["color"] for entry in TEAM_PALETTE.values()}) == len(TEAM_PALETTE)
     assert all(entry["on_color"] in {"#000000", "#ffffff"} for entry in TEAM_PALETTE.values())
+
+
+def test_matches_and_logos_have_palette_entries():
+    matches = pd.read_csv(Path("data/matches.csv"))
+    assert set(matches["home_team_name"]).union(matches["away_team_name"]) <= set(TEAM_PALETTE)
+    logos = {path.stem for path in Path("data/team_logos").iterdir() if path.is_file()}
+    assert logos <= set(TEAM_PALETTE)
+
+
+def test_palette_contrast_and_distances():
+    for entry in TEAM_PALETTE.values():
+        assert contrast_ratio(entry["color"], "#172033") >= 3
+        assert contrast_ratio(entry["color"], "#111827") >= 3
+        assert contrast_ratio(entry["text_color"], "#172033") >= 4.5
+        assert contrast_ratio(entry["text_color"], "#111827") >= 4.5
+    distances = [
+        ciede2000(first["color"], second["color"])
+        for index, first in enumerate(TEAM_PALETTE.values())
+        for second_index, second in enumerate(TEAM_PALETTE.values())
+        if second_index > index
+    ]
+    assert min(distances) >= 20
 
 
 def test_site_has_compare_placeholder_and_match_reports(tmp_path):

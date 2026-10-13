@@ -48,6 +48,8 @@ python -m fotmob_isl report --match-id 6361990 --data-dir data --output-dir repo
 python -m fotmob_isl report --all --data-dir data --output-dir reports
 python -m fotmob_isl analyze --data-dir data --insights-dir reports/insights --max-ai-calls 3
 python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site --logos-dir data/team_logos
+# Use --base-url when deploying under a different origin or path.
+python -m fotmob_isl site --data-dir data --insights-dir reports/insights --site-dir site --base-url https://example.com/isl/
 ```
 
 `ingest` skips unfinished matches and anything outside league 9478. Re-ingesting a match replaces its rows, and CSV
@@ -105,13 +107,46 @@ output and is intentionally ignored; it is uploaded as a Pages artifact during t
 workflow rather than committed to the repository.
 
 The site renderer lives in `fotmob_isl/site/` and publishes a small non-commercial fan
-site called **Give Indian Football a Chance**. The compare page is currently a
-placeholder; finished match reports live at `matches.html` and retain stable
-`<match_id>.html` URLs. It uses autoescaped Jinja2 templates, one shared dark stylesheet,
-inline SVG xG charts, fixed high-contrast team colours, and copied team logos. If a logo
-is missing, a team-initials badge is used. Kickoff times are shown in Indian Standard
+site called **Give Indian Football a Chance**.
+
+### Page map
+
+- `index.html` is the offline comparison homepage. Python precomputes the expected
+  league table, season summaries, per-match rows, and every club-pair head-to-head
+  list. The page embeds one compact JSON data blob; browser JavaScript only renders,
+  sorts, and handles interaction. It also publishes `expected_table.csv` and a
+  build-dated `expected_table_YYYY-MM-DD.csv`.
+- `matches.html` lists finished match reports.
+- `<match_id>.html` contains the hero, xG race, fair-result meter, referee lens,
+  fan poll, information chips, AI-notes card, sharing controls, and generated share
+  image.
+- `assets/style.css` and `assets/site.js` are the shared static assets. SVG charts
+  and the server-rendered expected table remain usable with JavaScript disabled.
+
+The expected table's xPts uses the exact Poisson-binomial distribution from the
+shot-level xG values: each non-own-goal shot is an independent Bernoulli chance,
+the team goal distributions are convolved, and xPts is `3 * P(win) + P(draw)`.
+Actual goals use `credited_team_id`, so an own goal counts for the benefiting team;
+own goals are excluded from xG and xPts. Early-season values are noisy, so the
+comparison page labels small-sample luck cautiously.
+
+Team colours and foreground colours are defined in
+`fotmob_isl/site/team_colors.py`, with a fixed high-contrast, identity-oriented
+palette used by charts, bars, pills, badges, and share cards. The palette is checked
+against the crest assets with OKLab chromatic clustering, OKLCH lightness-only token
+derivation, WCAG contrast, CIEDE2000 distance, and colour-vision simulations. Run
+`python scripts/palette_preview.py --logos-dir data/team_logos --output palette_preview.png`
+to regenerate the dev-only visual preview and QA table. Unknown club names raise an
+error rather than silently receiving a misleading fallback colour. If a logo is
+missing, a team-initials badge is used. Kickoff times are shown in Indian Standard
 Time. The `--logos-dir` option can point to another directory of image assets when
 building locally.
+
+Share cards are generated with Pillow as 1200×630 PNGs in
+`site/share/<match_id>.png`. The build vendors Inter under
+`fotmob_isl/site/static/fonts/` with its OFL licence and uses the cards for absolute
+Open Graph/Twitter image URLs. `--base-url` controls that absolute URL prefix and
+defaults to `https://joyan9.github.io/isl-data/`.
 
 The workflow is designed to populate the repo with real data over time, but a fresh checkout may start empty until the scheduled run or a manual run has completed. The `.github/workflows/ingest.yml` job is the live data-producing path.
 
