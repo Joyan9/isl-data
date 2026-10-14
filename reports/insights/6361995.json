@@ -1,0 +1,8 @@
+{
+  "match_id": "6361995",
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
+  "source_hash": "ced8d2f5e91015c68daecc59448d895d534a07a05e09a6659e3dc0dbd3a10df3",
+  "insights": "- Punjab FC won 2‑1, out‑scoring Odisha's 0.79 xG with 2 goals while Odisha out‑shot Punjab 11‑17 but still scored only once; Punjab's 1.76 xG shows their chances were of higher quality.\n- Home possession sat at 54 % versus Odisha's 46 %, yet Punjab landed 8 accurate passes out of 454 total and created 2 big chances, whereas Odisha had 301 accurate passes out of 399 and only 1 big chance, highlighting the quality‑not‑quantity difference.\n- Messi Bouli was the star for Punjab, firing 4 shots (xG 0.84) and netting both goals (xG‑got 3.18) – a 2.4‑xG swing above the team's total 1.76, proving his shots were worth more than the average chance.\n- Odisha's lone goal came in the 15th minute from Thoiba Moirangthem, who had only a single shot (xG 0.08) and yet managed to score, showing that a single well‑placed chance can still tilt the result.",
+  "generated_at_utc": "2026-10-14T18:42:30+00:00"
+}
