@@ -1,7 +1,8 @@
 {
   "match_id": "6361993",
-  "status": "failed",
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
   "source_hash": "0b527953b5244c91496c1b12142de5b4a63bf59de1e63626631398193d88f824",
-  "error": "ValueError: Groq response status was 'incomplete'",
-  "generated_at_utc": "2026-10-13T20:23:18+00:00"
+  "insights": "- Churchill Brothers won 2‑1 with only 41 % possession and an expected‑goals of 0.28, proving that the quality of chances (xG) can outweigh sheer volume of play.\n- Mumbai City FC held 59 % of possession and had a 1.54 expected‑goals advantage, yet their 10 shots produced just one goal – a reminder that xG shows how good the chances are, not that they will definitely score.\n- Both sides had 10 total shots and one big chance each, but Churchill’s two goals came from just two inside‑box attempts, while Mumbai’s single goal came from seven inside‑box shots, underscoring efficient finishing over quantity.\n- Away delivered 449 passes with 368 accurate, compared with home’s 320 passes and 244 accurate, yet Churchill registered 7 on‑target shots versus 6 for Mumbai, illustrating that passing accuracy alone doesn’t guarantee scoring.\n- Mumbai City FC claimed 10 corners but scored none from them, whereas Churchill’s four corners produced a goal each, showing that more corners don’t automatically translate into goals.",
+  "generated_at_utc": "2026-10-14T06:24:51+00:00"
 }

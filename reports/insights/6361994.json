@@ -1,7 +1,8 @@
 {
   "match_id": "6361994",
-  "status": "failed",
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
   "source_hash": "6c0019558ab63b14dc62eb8e5753363c15750d4275a29eeb4585d13d610155d6",
-  "error": "ValueError: Groq response status was 'incomplete'",
-  "generated_at_utc": "2026-10-13T20:23:20+00:00"
+  "insights": "- Northeast United FC won 1‑0 with only 45 % possession and 9 shots, yet the goal came from a high‑quality chance (xG 0.36) that materialised – showing xG tells you about the quality of chances, not the final score.\n- Mohun Bagan SG held 55 % possession and fired 25 shots, but their higher expected‑goals total (1.48 vs 0.76) did not translate into a goal, illustrating that many of those shots were low‑quality chances.\n- The home team had 245 accurate passes to the visitors’ 301, a tighter passing game for them, yet the visitors still completed more passes overall (384 vs 315), indicating a more active but less efficient passing approach.\n- Jithin Madathil Subran’s lone goal had an xG of 0.36, meaning roughly one in every three chances he faced turned into a goal—an example of a single high‑quality chance making a decisive difference.",
+  "generated_at_utc": "2026-10-14T06:24:53+00:00"
 }
