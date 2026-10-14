@@ -35,6 +35,27 @@ def _display_number(value):
     return int(number) if number.is_integer() else round(number, 2)
 
 
+def _display_decimal(value):
+    if value is None or pd.isna(value):
+        return None
+    return f"{float(value):.2f}"
+
+
+def _format_generated_at(value: str) -> str:
+    generated = datetime.fromisoformat(value)
+    return generated.astimezone(timezone.utc).strftime("%-d %b %Y, %H:%M UTC")
+
+
+def _format_table_value(column: str, value) -> str:
+    if value is None or pd.isna(value):
+        return ""
+    if column in {"P", "Pts", "GF", "GA", "GD"}:
+        return str(int(round(float(value))))
+    if column in {"xPts", "Pts-xPts", "xGF", "xGA", "xGD"}:
+        return f"{float(value):.2f}"
+    return str(value)
+
+
 def _insights(bundle: MatchBundle, insights_dir: Path) -> list[str]:
     context = _match_context(bundle.match, bundle.team_stats, bundle.shots, bundle.players)
     cached = _load_cached(
@@ -84,6 +105,7 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
     env.globals["logo_path"] = lambda name: logo_paths.get(name)
     env.globals["initials"] = _initials
     env.globals["slug"] = _slug
+    env.globals["format_table_value"] = _format_table_value
     site_bundles = []
     for bundle in bundles:
         if pd.isna(pd.to_numeric(bundle.match.get("home_score"), errors="coerce")) or pd.isna(
@@ -97,8 +119,8 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
             "insights": _insights(bundle, insights_dir),
             "home_logo": logo_paths.get(bundle.home_name),
             "away_logo": logo_paths.get(bundle.away_name),
-            "home_xg": _display_number(bundle.stat("home", EXPECTED_GOALS)),
-            "away_xg": _display_number(bundle.stat("away", EXPECTED_GOALS)),
+            "home_xg": _display_decimal(bundle.stat("home", EXPECTED_GOALS)),
+            "away_xg": _display_decimal(bundle.stat("away", EXPECTED_GOALS)),
             "home_shots": len(home_shots_frame),
             "away_shots": len(away_shots_frame),
             "home_on_target": _display_number(bundle.stat("home", "ShotsOnTarget")),
@@ -141,6 +163,7 @@ def build_site(data_dir: Path, insights_dir: Path, site_dir: Path,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "base_url": base_url.rstrip("/") + "/",
     }
+    common["generated_at_display"] = _format_generated_at(common["generated_at"])
     comparison = build_comparison_data([item["bundle"] for item in site_bundles], logo_paths)
     build_date = datetime.now(timezone.utc).date().isoformat()
     write_expected_table_csv(site_dir / "expected_table.csv", comparison["table"], comparison["generated_at"])

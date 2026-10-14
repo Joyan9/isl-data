@@ -56,9 +56,10 @@ def build_comparison_data(
             palette = color_for(name)
             teams[name] = {
                 "name": name, "slug": _slug(name), "logo": logo_paths.get(name),
-                "color": palette["color"], "on_color": palette["on_color"],
+                "color": palette["color"], "text_color": palette["text_color"],
+                "on_color": palette["on_color"],
                 "matches": 0, "wins": 0, "draws": 0, "losses": 0,
-                "points": 0.0, "xpoints": 0.0, "gf": 0.0, "xgf": 0.0,
+                "points": 0, "xpoints": 0.0, "gf": 0, "xgf": 0.0,
                 "ga": 0.0, "xga": 0.0, "shots": 0.0, "possession": 0.0,
                 "fouls": 0.0, "yellows": 0.0, "form": [],
             }
@@ -106,7 +107,7 @@ def build_comparison_data(
         row = {
             "id": bundle.match_id, "date": str(bundle.match.get("match_date_utc") or ""),
             "home": home, "away": away, "home_score": home_score, "away_score": away_score,
-            "home_xg": round(home_xg, 3), "away_xg": round(away_xg, 3),
+            "home_xg": round(home_xg, 2), "away_xg": round(away_xg, 2),
             "home_result": home_result, "away_result": away_result,
         }
         matches.append(row)
@@ -117,17 +118,31 @@ def build_comparison_data(
         record["form"] = record["form"][-5:]
         record["gd"] = record["gf"] - record["ga"]
         record["xgd"] = record["xgf"] - record["xga"]
-        record["points"] = round(record["points"], 3)
-        record["xpoints"] = round(record["xpoints"], 3)
-        record["points_delta"] = round(record["points"] - record["xpoints"], 3)
-        for key in ("gf", "xgf", "ga", "xga", "gd", "xgd", "shots", "fouls", "yellows"):
+        record["points"] = int(record["points"])
+        record["xpoints"] = round(record["xpoints"], 2)
+        record["points_delta"] = round(record["points"] - record["xpoints"], 2)
+        for key in ("gf", "ga"):
+            record[key] = int(record[key])
+        for key in ("xgf", "xga", "gd", "xgd"):
+            record[key] = round(record[key], 2)
+        for key in ("shots", "fouls", "yellows"):
             record[key] = round(record[key], 3)
 
     for first, second in combinations(sorted(teams), 2):
         pair_matches.setdefault("|".join((first, second)), [])
 
-    expected = sorted(teams.values(), key=lambda row: (-row["xpoints"], -row["xgd"], -row["xgf"], row["name"]))
-    actual = sorted(teams.values(), key=lambda row: (-row["points"], -row["gd"], -row["gf"], row["name"]))
+    expected = sorted(
+        teams.values(),
+        key=lambda row: (
+            row["matches"] == 0, -row["xpoints"], -row["xgd"], -row["xgf"], row["name"]
+        ),
+    )
+    actual = sorted(
+        teams.values(),
+        key=lambda row: (
+            row["matches"] == 0, -row["points"], -row["gd"], -row["gf"], row["name"]
+        ),
+    )
     actual_rank = {row["name"]: index for index, row in enumerate(actual, 1)}
     table = []
     for index, row in enumerate(expected, 1):
@@ -150,7 +165,14 @@ def write_expected_table_csv(path: Path, table: list[dict], generated_at: str) -
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=TABLE_COLUMNS)
         writer.writeheader()
-        writer.writerows({column: row[column] for column in TABLE_COLUMNS} for row in table)
+        def output(row):
+            values = {column: row[column] for column in TABLE_COLUMNS}
+            for column in ("xPts", "Pts-xPts", "xGF", "xGA", "xGD"):
+                values[column] = f"{float(values[column]):.2f}"
+            for column in ("Pos", "P", "Pts", "GF", "GA", "GD"):
+                values[column] = str(int(round(float(values[column]))))
+            return values
+        writer.writerows(output(row) for row in table)
     return path
 
 

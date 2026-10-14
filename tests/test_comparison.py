@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 
 from fotmob_isl.site.comparison import (
     TABLE_COLUMNS,
@@ -40,9 +41,33 @@ def test_table_credits_own_goal_to_benefitting_team():
     assert rows["Bengaluru FC"]["GF"] == 0
 
 
+def test_unplayed_teams_are_ranked_last():
+    data = build_comparison_data([_bundle([{
+        "match_id": 1, "team_id": 10, "side": "home", "xg": None,
+        "is_own_goal": False, "event_type": "Miss", "credited_team_id": None,
+    }])])
+    rows = {row["Team"]: row for row in data["table"]}
+    assert rows["East Bengal FC"]["P"] == 0
+    played = [row for row in data["table"] if row["P"] > 0]
+    assert all(row["P"] == 0 for row in data["table"][len(played):])
+    assert rows["East Bengal FC"]["actual_rank"] > len(played)
+
+
 def test_csv_columns_and_hash_parser(tmp_path):
     data = build_comparison_data([])
     path = write_expected_table_csv(tmp_path / "expected.csv", data["table"], data["generated_at"])
     assert list(pd.read_csv(path).columns) == TABLE_COLUMNS
     assert parse_comparison_hash("#a=bengaluru-fc&b=sc-delhi") == ("bengaluru-fc", "sc-delhi")
     assert parse_comparison_hash("") == (None, None)
+
+
+def test_csv_formats_counts_and_expected_values(tmp_path):
+    data = build_comparison_data([_bundle([
+        {"match_id": 1, "team_id": 10, "side": "home", "event_type": "Miss",
+         "credited_team_id": None, "xg": 0.543, "is_own_goal": False},
+    ])])
+    path = write_expected_table_csv(tmp_path / "expected.csv", data["table"], data["generated_at"])
+    rows = list(csv.DictReader(path.open(encoding="utf-8")))
+    assert rows[0]["Pts"] == "0"
+    assert rows[0]["xGF"] == "0.54"
+    assert rows[0]["xPts"] == "2.09"

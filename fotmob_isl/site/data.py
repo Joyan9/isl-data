@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -24,6 +24,7 @@ class MatchBundle:
     away_color: str
     home_on_color: str
     away_on_color: str
+    all_matches: pd.DataFrame = field(default_factory=pd.DataFrame, compare=False, repr=False)
 
     @property
     def match_id(self) -> str:
@@ -75,23 +76,111 @@ class MatchBundle:
         def clean(value):
             value = pd.to_numeric(value, errors="coerce")
             return None if pd.isna(value) else value
+
         def total(key):
-            values = [pd.to_numeric(self.stat(side, key), errors="coerce") for side in ("home", "away")]
-            return sum(value for value in values if pd.notna(value)) or None
+            values = [clean(self.stat(side, key)) for side in ("home", "away")]
+            return sum(value for value in values if value is not None) if any(value is not None for value in values) else None
+
+        def classify(observed, expected):
+            if observed is None or expected is None:
+                return None
+            band = 1.28 * expected ** 0.5
+            if observed < expected - band:
+                return "fewer"
+            if observed > expected + band:
+                return "more"
+            return "usual"
+
         fouls, yellow, red = total("fouls"), total("yellow_cards"), total("red_cards")
-        return {"name": match.get("referee_name"), "fouls": fouls, "yellow": yellow, "red": red,
-                "fouls_avg": match.get("referee_fouls_per_match"),
-                "yellow_avg": match.get("referee_yellow_per_match"),
-                "red_avg": clean(pd.to_numeric(match.get("referee_red_total"), errors="coerce")
-                            / pd.to_numeric(match.get("referee_matches"), errors="coerce")),
-                "fouls_league": match.get("referee_fouls_league_avg"),
-                "yellow_league": match.get("referee_yellow_league_avg"),
-                "cards_per_foul": (yellow + red) / fouls if fouls and yellow is not None and red is not None else None}
+        fouls_avg = clean(match.get("referee_fouls_per_match"))
+        yellow_avg = clean(match.get("referee_yellow_per_match"))
+        league_fouls = clean(match.get("referee_fouls_league_avg"))
+        league_yellow = clean(match.get("referee_yellow_league_avg"))
+        cards_per_foul = yellow / fouls if fouls and yellow is not None else None
+        referee_cards_per_foul = yellow_avg / fouls_avg if fouls_avg else None
+        league_cards_per_foul = league_yellow / league_fouls if league_fouls else None
+        whistle = classify(fouls, fouls_avg)
+        pocket_expected = fouls * yellow_avg / fouls_avg if fouls and yellow_avg is not None and fouls_avg else None
+        pocket = classify(yellow, pocket_expected)
+        headline = {
+            ("more", "more"): "Strict night", ("more", "usual"): "Busy whistle",
+            ("more", "fewer"): "Lots of fouls, few cards", ("usual", "more"): "Card-happy night",
+            ("usual", "usual"): "Business as usual", ("usual", "fewer"): "Cards stayed in the pocket",
+            ("fewer", "more"): "Few fouls, quick to book", ("fewer", "usual"): "Whistle stayed quiet",
+            ("fewer", "fewer"): "Let-it-flow night",
+        }.get((whistle, pocket))
+        stat_rows = [
+            {"label": "Fouls", "match": fouls, "ref": fouls_avg, "league": league_fouls,
+             "classification": whistle},
+            {"label": "Yellow cards", "match": yellow, "ref": yellow_avg, "league": league_yellow,
+             "classification": pocket},
+            {"label": "Cards per foul", "match": cards_per_foul, "ref": referee_cards_per_foul,
+             "league": league_cards_per_foul, "classification": classify(cards_per_foul, referee_cards_per_foul)},
+        ]
+        referee_id = str(match.get("referee_id")) if pd.notna(match.get("referee_id")) else None
+        own_matches = pd.DataFrame()
+        if referee_id and not self.all_matches.empty and "referee_id" in self.all_matches:
+            own_matches = self.all_matches[
+                self.all_matches["referee_id"].astype(str) == referee_id
+            ]
+        own_fouls = []
+        for _, row in own_matches.iterrows():
+            match_id = str(row.get("match_id"))
+            stat_rows_for_match = self.team_stats[
+                (self.team_stats["match_id"].astype(str) == match_id)
+                & (self.team_stats["period"] == "All")
+                & (self.team_stats["stat_key"] == "fouls")
+            ]
+            value = pd.to_numeric(stat_rows_for_match["value_num"], errors="coerce").sum() if not stat_rows_for_match.empty else None
+            if value is not None and pd.notna(value):
+                own_fouls.append(float(value))
+        own_matches_count = len(own_fouls)
+        return {
+            "name": match.get("referee_name"), "matches": clean(match.get("referee_matches")),
+            "fouls": fouls, "yellow": yellow, "red": red, "fouls_avg": fouls_avg,
+            "yellow_avg": yellow_avg, "fouls_league": league_fouls, "yellow_league": league_yellow,
+            "cards_per_foul": cards_per_foul, "referee_cards_per_foul": referee_cards_per_foul,
+            "league_cards_per_foul": league_cards_per_foul,
+            "whistle": whistle, "pocket": pocket, "headline": headline,
+            "pocket_expected": pocket_expected,
+            "rows": stat_rows,
+            "teams": [{"name": self.home_name, "fouls": clean(self.stat("home", "fouls")),
+                       "yellow": clean(self.stat("home", "yellow_cards"))},
+                      {"name": self.away_name, "fouls": clean(self.stat("away", "fouls")),
+                       "yellow": clean(self.stat("away", "yellow_cards"))}],
+            "own_matches": own_matches_count,
+            "own_fouls_avg": sum(own_fouls) / own_matches_count if own_matches_count >= 5 else None,
+        }
 
     def poll(self) -> dict | None:
         values = {key: pd.to_numeric(self.match.get(key), errors="coerce")
                   for key in ("fan_vote_home", "fan_vote_draw", "fan_vote_away")}
-        return values if all(pd.notna(value) for value in values.values()) else None
+        if not all(pd.notna(value) for value in values.values()):
+            return None
+        votes = [int(values[key]) for key in ("fan_vote_home", "fan_vote_draw", "fan_vote_away")]
+        total = sum(votes)
+        if total <= 0:
+            return None
+        exact = [vote * 100 / total for vote in votes]
+        shares = [int(value) for value in exact]
+        for index in sorted(range(3), key=lambda item: (-(exact[item] - shares[item]), item))[:100 - sum(shares)]:
+            shares[index] += 1
+        home_score = pd.to_numeric(self.match.get("home_score"), errors="coerce")
+        away_score = pd.to_numeric(self.match.get("away_score"), errors="coerce")
+        actual = (
+            self.home_name if home_score > away_score else
+            self.away_name if away_score > home_score else "Draw"
+        )
+        crowd_correct = (
+            ("Home" if shares[0] >= max(shares) else "Draw" if shares[1] >= max(shares) else "Away")
+            == ("Home" if actual == self.home_name else "Away" if actual == self.away_name else "Draw")
+        )
+        return {
+            "home": shares[0], "draw": shares[1], "away": shares[2],
+            "home_votes": votes[0], "draw_votes": votes[1], "away_votes": votes[2],
+            "total": total, "actual": actual,
+            "verdict": "The crowd called it" if crowd_correct else "The crowd got this one wrong",
+        }
 
     def goals(self) -> list[dict]:
         shots = self.shots[self.shots["match_id"].astype(str) == self.match_id]
@@ -141,6 +230,7 @@ def build_match_bundle(loaded: LoadedData, match: dict, colors: dict[str, str]) 
         away_color=away_palette["color"],
         home_on_color=home_palette["on_color"],
         away_on_color=away_palette["on_color"],
+        all_matches=loaded.matches,
     )
 
 
