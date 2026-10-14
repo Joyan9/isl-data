@@ -1289,3 +1289,261 @@ match_id,league_season_id,round,match_date_utc,period,team_id,team_name,side,gro
 6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,total_shots,Total shots,7,,7
 6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,touches_opp_box,Touches in opposition box,11,,11
 6361994,949788,1,2026-10-12T14:00:00.000Z,SecondHalf,578656,Northeast United FC,home,top_stats,yellow_cards,Yellow cards,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,defence,clearances,Clearances,18,,18
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,defence,interceptions,Interceptions,10,,10
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,defence,keeper_saves,Keeper saves,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,defence,matchstats.headers.tackles,Tackles,15,,15
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,defence,shot_blocks,Blocks,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,discipline,fouls,Fouls committed,5,,5
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,discipline,red_cards,Red cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,discipline,yellow_cards,Yellow cards,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,duels,aerials_won,Aerial duels won,11,41,11 (41%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,duels,dribbles_succeeded,Successful dribbles,2,29,2 (29%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,duels,duel_won,Duels won,43,,43
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,duels,ground_duels_won,Ground duels won,32,53,32 (53%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,expected_goals,expected_goals,Expected goals (xG),0.79,,0.79
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,expected_goals,expected_goals_non_penalty,xG non-penalty,0.79,,0.79
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,expected_goals,expected_goals_on_target,xG on target (xGOT),0.53,,0.53
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,expected_goals,expected_goals_open_play,xG open play,0.38,,0.38
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,expected_goals,expected_goals_set_play,xG set play,0.41,,0.41
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,Offsides,Offsides,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,accurate_crosses,Accurate crosses,3,30,3 (30%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,accurate_passes,Accurate passes,301,75,301 (75%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,long_balls_accurate,Accurate long balls,28,35,28 (35%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,opposition_half_passes,Opposition half,102,,102
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,own_half_passes,Own half,199,,199
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,passes,Passes,399,,399
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,player_throws,Throws,20,,20
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,passes,touches_opp_box,Touches in opposition box,13,,13
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,ShotsOffTarget,Shots off target,6,,6
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,ShotsOnTarget,Shots on target,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,blocked_shots,Blocked shots,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,shots_inside_box,Shots inside box,7,,7
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,shots_outside_box,Shots outside box,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,shots_woodwork,Hit woodwork,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,shots,total_shots,Total shots,11,,11
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,BallPossesion,Ball possession,46,,46
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,ShotsOnTarget,Shots on target,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,accurate_passes,Accurate passes,301,75,301 (75%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,big_chance,Big chances,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,big_chance_missed_title,Big chances missed,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,corners,Corners,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,expected_goals,Expected goals (xG),0.79,,0.79
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,total_shots,Total shots,11,,11
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,touches_opp_box,Touches in opposition box,13,,13
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,578653,Odisha FC,away,top_stats,yellow_cards,Yellow cards,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,defence,clearances,Clearances,19,,19
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,defence,interceptions,Interceptions,13,,13
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,defence,keeper_saves,Keeper saves,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,defence,matchstats.headers.tackles,Tackles,16,,16
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,defence,shot_blocks,Blocks,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,discipline,fouls,Fouls committed,15,,15
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,discipline,red_cards,Red cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,discipline,yellow_cards,Yellow cards,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,duels,aerials_won,Aerial duels won,16,59,16 (59%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,duels,dribbles_succeeded,Successful dribbles,8,44,8 (44%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,duels,duel_won,Duels won,44,,44
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,duels,ground_duels_won,Ground duels won,28,47,28 (47%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,expected_goals,expected_goals,Expected goals (xG),1.76,,1.76
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,expected_goals,expected_goals_non_penalty,xG non-penalty,1.76,,1.76
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,expected_goals,expected_goals_on_target,xG on target (xGOT),3.18,,3.18
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,expected_goals,expected_goals_open_play,xG open play,1.62,,1.62
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,expected_goals,expected_goals_set_play,xG set play,0.14,,0.14
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,Offsides,Offsides,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,accurate_crosses,Accurate crosses,8,38,8 (38%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,accurate_passes,Accurate passes,377,83,377 (83%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,long_balls_accurate,Accurate long balls,29,58,29 (58%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,opposition_half_passes,Opposition half,184,,184
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,own_half_passes,Own half,193,,193
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,passes,Passes,454,,454
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,player_throws,Throws,22,,22
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,passes,touches_opp_box,Touches in opposition box,28,,28
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,ShotsOffTarget,Shots off target,9,,9
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,ShotsOnTarget,Shots on target,6,,6
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,blocked_shots,Blocked shots,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,shots_inside_box,Shots inside box,13,,13
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,shots_outside_box,Shots outside box,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,shots,total_shots,Total shots,17,,17
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,BallPossesion,Ball possession,54,,54
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,ShotsOnTarget,Shots on target,6,,6
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,accurate_passes,Accurate passes,377,83,377 (83%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,big_chance,Big chances,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,corners,Corners,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,expected_goals,Expected goals (xG),1.76,,1.76
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,total_shots,Total shots,17,,17
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,touches_opp_box,Touches in opposition box,28,,28
+6361995,949788,1,2026-10-14T14:00:00.000Z,All,589749,Punjab FC,home,top_stats,yellow_cards,Yellow cards,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,defence,clearances,Clearances,5,,5
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,defence,interceptions,Interceptions,5,,5
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,defence,keeper_saves,Keeper saves,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,defence,matchstats.headers.tackles,Tackles,6,,6
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,defence,shot_blocks,Blocks,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,discipline,fouls,Fouls committed,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,discipline,red_cards,Red cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,discipline,yellow_cards,Yellow cards,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,duels,aerials_won,Aerial duels won,5,45,5 (45%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,duels,dribbles_succeeded,Successful dribbles,1,33,1 (33%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,duels,duel_won,Duels won,20,,20
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,duels,ground_duels_won,Ground duels won,15,56,15 (56%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,expected_goals,expected_goals,Expected goals (xG),0.37,,0.37
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,expected_goals,expected_goals_non_penalty,xG non-penalty,0.37,,0.37
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,expected_goals,expected_goals_on_target,xG on target (xGOT),0.42,,0.42
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,expected_goals,expected_goals_open_play,xG open play,0.28,,0.28
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,expected_goals,expected_goals_set_play,xG set play,0.08,,0.08
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,Offsides,Offsides,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,accurate_crosses,Accurate crosses,1,17,1 (17%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,accurate_passes,Accurate passes,198,78,198 (78%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,long_balls_accurate,Accurate long balls,18,39,18 (39%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,opposition_half_passes,Opposition half,61,,61
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,own_half_passes,Own half,137,,137
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,passes,Passes,254,,254
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,player_throws,Throws,10,,10
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,passes,touches_opp_box,Touches in opposition box,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,ShotsOffTarget,Shots off target,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,ShotsOnTarget,Shots on target,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,blocked_shots,Blocked shots,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,shots_inside_box,Shots inside box,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,shots_outside_box,Shots outside box,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,shots_woodwork,Hit woodwork,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,shots,total_shots,Total shots,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,BallPossesion,Ball possession,54,,54
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,ShotsOnTarget,Shots on target,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,accurate_passes,Accurate passes,198,78,198 (78%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,big_chance,Big chances,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,big_chance_missed_title,Big chances missed,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,corners,Corners,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,expected_goals,Expected goals (xG),0.37,,0.37
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,total_shots,Total shots,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,touches_opp_box,Touches in opposition box,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,578653,Odisha FC,away,top_stats,yellow_cards,Yellow cards,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,defence,clearances,Clearances,11,,11
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,defence,interceptions,Interceptions,11,,11
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,defence,keeper_saves,Keeper saves,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,defence,matchstats.headers.tackles,Tackles,7,,7
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,defence,shot_blocks,Blocks,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,discipline,fouls,Fouls committed,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,discipline,red_cards,Red cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,discipline,yellow_cards,Yellow cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,duels,aerials_won,Aerial duels won,6,55,6 (55%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,duels,dribbles_succeeded,Successful dribbles,3,50,3 (50%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,duels,duel_won,Duels won,18,,18
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,duels,ground_duels_won,Ground duels won,12,44,12 (44%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,expected_goals,expected_goals,Expected goals (xG),0.76,,0.76
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,expected_goals,expected_goals_non_penalty,xG non-penalty,0.76,,0.76
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,expected_goals,expected_goals_on_target,xG on target (xGOT),1.34,,1.34
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,expected_goals,expected_goals_open_play,xG open play,0.71,,0.71
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,expected_goals,expected_goals_set_play,xG set play,0.05,,0.05
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,Offsides,Offsides,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,accurate_crosses,Accurate crosses,2,33,2 (33%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,accurate_passes,Accurate passes,169,80,169 (80%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,long_balls_accurate,Accurate long balls,14,56,14 (56%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,opposition_half_passes,Opposition half,85,,85
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,own_half_passes,Own half,84,,84
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,passes,Passes,211,,211
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,player_throws,Throws,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,passes,touches_opp_box,Touches in opposition box,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,ShotsOffTarget,Shots off target,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,ShotsOnTarget,Shots on target,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,blocked_shots,Blocked shots,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,shots_inside_box,Shots inside box,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,shots_outside_box,Shots outside box,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,shots,total_shots,Total shots,6,,6
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,BallPossesion,Ball possession,46,,46
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,ShotsOnTarget,Shots on target,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,accurate_passes,Accurate passes,169,80,169 (80%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,big_chance,Big chances,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,corners,Corners,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,expected_goals,Expected goals (xG),0.76,,0.76
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,total_shots,Total shots,6,,6
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,touches_opp_box,Touches in opposition box,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,FirstHalf,589749,Punjab FC,home,top_stats,yellow_cards,Yellow cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,defence,clearances,Clearances,13,,13
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,defence,interceptions,Interceptions,5,,5
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,defence,keeper_saves,Keeper saves,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,defence,matchstats.headers.tackles,Tackles,9,,9
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,defence,shot_blocks,Blocks,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,discipline,fouls,Fouls committed,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,discipline,red_cards,Red cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,discipline,yellow_cards,Yellow cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,duels,aerials_won,Aerial duels won,6,38,6 (38%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,duels,dribbles_succeeded,Successful dribbles,1,25,1 (25%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,duels,duel_won,Duels won,23,,23
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,duels,ground_duels_won,Ground duels won,17,52,17 (52%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,expected_goals,expected_goals,Expected goals (xG),0.42,,0.42
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,expected_goals,expected_goals_non_penalty,xG non-penalty,0.42,,0.42
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,expected_goals,expected_goals_on_target,xG on target (xGOT),0.12,,0.12
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,expected_goals,expected_goals_open_play,xG open play,0.09,,0.09
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,expected_goals,expected_goals_set_play,xG set play,0.33,,0.33
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,Offsides,Offsides,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,accurate_crosses,Accurate crosses,2,50,2 (50%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,accurate_passes,Accurate passes,103,71,103 (71%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,long_balls_accurate,Accurate long balls,10,29,10 (29%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,opposition_half_passes,Opposition half,41,,41
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,own_half_passes,Own half,62,,62
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,passes,Passes,145,,145
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,player_throws,Throws,10,,10
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,passes,touches_opp_box,Touches in opposition box,10,,10
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,ShotsOffTarget,Shots off target,4,,4
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,ShotsOnTarget,Shots on target,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,blocked_shots,Blocked shots,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,shots_inside_box,Shots inside box,5,,5
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,shots_outside_box,Shots outside box,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,shots_woodwork,Hit woodwork,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,shots,total_shots,Total shots,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,BallPossesion,Ball possession,36,,36
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,ShotsOnTarget,Shots on target,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,accurate_passes,Accurate passes,103,71,103 (71%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,big_chance,Big chances,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,corners,Corners,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,expected_goals,Expected goals (xG),0.42,,0.42
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,total_shots,Total shots,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,touches_opp_box,Touches in opposition box,10,,10
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,578653,Odisha FC,away,top_stats,yellow_cards,Yellow cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,defence,clearances,Clearances,8,,8
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,defence,interceptions,Interceptions,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,defence,keeper_saves,Keeper saves,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,defence,matchstats.headers.tackles,Tackles,9,,9
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,defence,shot_blocks,Blocks,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,discipline,fouls,Fouls committed,7,,7
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,discipline,red_cards,Red cards,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,discipline,yellow_cards,Yellow cards,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,duels,aerials_won,Aerial duels won,10,63,10 (63%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,duels,dribbles_succeeded,Successful dribbles,5,42,5 (42%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,duels,duel_won,Duels won,26,,26
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,duels,ground_duels_won,Ground duels won,16,48,16 (48%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,expected_goals,expected_goals,Expected goals (xG),1.01,,1.01
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,expected_goals,expected_goals_non_penalty,xG non-penalty,1.01,,1.01
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,expected_goals,expected_goals_on_target,xG on target (xGOT),1.85,,1.85
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,expected_goals,expected_goals_open_play,xG open play,0.91,,0.91
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,expected_goals,expected_goals_set_play,xG set play,0.09,,0.09
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,Offsides,Offsides,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,accurate_crosses,Accurate crosses,6,40,6 (40%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,accurate_passes,Accurate passes,208,86,208 (86%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,long_balls_accurate,Accurate long balls,15,60,15 (60%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,opposition_half_passes,Opposition half,99,,99
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,own_half_passes,Own half,109,,109
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,passes,Passes,243,,243
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,player_throws,Throws,14,,14
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,passes,touches_opp_box,Touches in opposition box,20,,20
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,ShotsOffTarget,Shots off target,7,,7
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,ShotsOnTarget,Shots on target,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,blocked_shots,Blocked shots,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,shots_inside_box,Shots inside box,9,,9
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,shots_outside_box,Shots outside box,2,,2
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,shots,total_shots,Total shots,11,,11
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,BallPossesion,Ball possession,64,,64
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,ShotsOnTarget,Shots on target,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,accurate_passes,Accurate passes,208,86,208 (86%)
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,big_chance,Big chances,1,,1
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,corners,Corners,3,,3
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,expected_goals,Expected goals (xG),1.01,,1.01
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,total_shots,Total shots,11,,11
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,touches_opp_box,Touches in opposition box,20,,20
+6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,yellow_cards,Yellow cards,2,,2

@@ -4928,3 +4928,979 @@ match_id,player_id,player_name,team_id,team_name,is_goalkeeper,shirt_number,usua
 6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,rating_title,FotMob rating,6.76,,double
 6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
 6361994,965693,Asheer Akhtar,578656,Northeast United FC,False,12,1,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,dispossessed,Dispossessed,3,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,dribbles_succeeded,Successful dribbles,1,3,fractionWithPercentage
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.02,,double
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,long_balls_accurate,Accurate long balls,0,2,fractionWithPercentage
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,touches,Touches,45,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,attack,Attack,touches_opp_box,Touches in opposition box,2,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,defensive_actions,Defensive actions,3,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,recoveries,Recoveries,4,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,duels,Duels,aerials_won,Aerial duels won,4,4,fractionWithPercentage
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,duels,Duels,duel_lost,Duels lost,6,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,duels,Duels,duel_won,Duels won,10,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,duels,Duels,ground_duels_won,Ground duels won,6,12,fractionWithPercentage
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,duels,Duels,was_fouled,Was fouled,3,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,accurate_passes,Accurate passes,15,24,fractionWithPercentage
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,defensive_actions,Defensive actions,3,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.02,,double
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,rating_title,FotMob rating,6.7,,double
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361995,1023027,Rahim Ali,578653,Odisha FC,False,11,3,top_stats,Top stats,xg_and_xa,xG + xA,0.02,,double
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.08,,double
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,attack,Attack,long_balls_accurate,Accurate long balls,3,10,fractionWithPercentage
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,attack,Attack,touches,Touches,66,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,clearances,Clearances,3,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,defensive_actions,Defensive actions,4,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,recoveries,Recoveries,2,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,duels,Duels,duel_won,Duels won,2,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,duels,Duels,ground_duels_won,Ground duels won,2,2,fractionWithPercentage
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,duels,Duels,was_fouled,Was fouled,2,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,accurate_passes,Accurate passes,43,52,fractionWithPercentage
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,defensive_actions,Defensive actions,4,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.08,,double
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.42,,double
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,goals,Goals,1,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,rating_title,FotMob rating,7.21,,double
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,1061455,Thoiba Moirangthem,578653,Odisha FC,False,24,1,top_stats,Top stats,xg_and_xa,xG + xA,0.08,,double
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,accurate_passes,Accurate passes,27,31,fractionWithPercentage
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,clearances,Clearances,2,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,defensive_actions,Defensive actions,3,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,duel_won,Duels won,2,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,expected_goals_on_target_faced,xGOT faced,0.53,,double
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,fouls,Fouls committed,0,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,goals_conceded,Goals conceded,1,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,goals_prevented,Goals prevented,-0.47,,double
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,interceptions,Interceptions,0,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,keeper_diving_save,Diving save,0,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,keeper_high_claim,High claim,0,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,keeper_sweeper,Acted as sweeper,1,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,long_balls_accurate,Accurate long balls,5,8,fractionWithPercentage
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,matchstats.headers.tackles,Tackles,1,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,player_throws,Throws,5,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,punches,Punches,0,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,rating_title,FotMob rating,6.75,,double
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,recoveries,Recoveries,7,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,saves,Saves,2,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,saves_inside_box,Saves inside box,0,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,touches,Touches,43,,integer
+6361995,1104545,Arshdeep Singh,589749,Punjab FC,True,1,0,top_stats,Top stats,was_fouled,Was fouled,,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,accurate_crosses,Accurate crosses,3,6,fractionWithPercentage
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,corners,Corners,3,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,dribbles_succeeded,Successful dribbles,0,2,fractionWithPercentage
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,long_balls_accurate,Accurate long balls,1,2,fractionWithPercentage
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,touches,Touches,62,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,clearances,Clearances,1,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,defensive_actions,Defensive actions,9,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,matchstats.headers.tackles,Tackles,7,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,recoveries,Recoveries,2,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,duels,Duels,aerials_won,Aerial duels won,1,2,fractionWithPercentage
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,duels,Duels,duel_lost,Duels lost,5,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,duels,Duels,duel_won,Duels won,8,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,duels,Duels,fouls,Fouls committed,2,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,duels,Duels,ground_duels_won,Ground duels won,7,11,fractionWithPercentage
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,accurate_passes,Accurate passes,32,36,fractionWithPercentage
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,chances_created,Chances created,3,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,defensive_actions,Defensive actions,9,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.13,,double
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,rating_title,FotMob rating,7.73,,double
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1121524,Khaiminthang Lhungdim,589749,Punjab FC,False,12,1,top_stats,Top stats,xg_and_xa,xG + xA,0.13,,double
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,attack,Attack,long_balls_accurate,Accurate long balls,6,10,fractionWithPercentage
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,attack,Attack,touches,Touches,74,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,clearances,Clearances,5,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,defensive_actions,Defensive actions,9,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,headed_clearance,Headed clearance,2,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,recoveries,Recoveries,5,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,duels,Duels,aerials_won,Aerial duels won,1,3,fractionWithPercentage
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,duels,Duels,duel_lost,Duels lost,2,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,duels,Duels,duel_won,Duels won,5,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,duels,Duels,ground_duels_won,Ground duels won,4,4,fractionWithPercentage
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,accurate_passes,Accurate passes,54,62,fractionWithPercentage
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,defensive_actions,Defensive actions,9,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,rating_title,FotMob rating,7.35,,double
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1207545,Nikhil Prabhu,589749,Punjab FC,False,4,2,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.02,,double
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,attack,Attack,touches,Touches,7,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,duels,Duels,ground_duels_won,Ground duels won,0,1,fractionWithPercentage
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,accurate_passes,Accurate passes,5,5,fractionWithPercentage
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.02,,double
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.03,,double
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,minutes_played,Minutes played,6,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,1223817,Gurkirat Singh,589749,Punjab FC,False,91,3,top_stats,Top stats,xg_and_xa,xG + xA,0.02,,double
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.09,,double
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,attack,Attack,long_balls_accurate,Accurate long balls,3,5,fractionWithPercentage
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,attack,Attack,passes_into_final_third,Passes into final third,6,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,attack,Attack,touches,Touches,59,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,defensive_actions,Defensive actions,4,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,interceptions,Interceptions,2,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,recoveries,Recoveries,5,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,duels,Duels,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,duels,Duels,duel_won,Duels won,4,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,duels,Duels,ground_duels_won,Ground duels won,3,3,fractionWithPercentage
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,accurate_passes,Accurate passes,41,45,fractionWithPercentage
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,defensive_actions,Defensive actions,4,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.06,,double
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.09,,double
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,rating_title,FotMob rating,7.49,,double
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361995,1313463,Ricky John Shabong,589749,Punjab FC,False,6,2,top_stats,Top stats,xg_and_xa,xG + xA,0.15,,double
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.15,,double
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,attack,Attack,long_balls_accurate,Accurate long balls,7,13,fractionWithPercentage
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,attack,Attack,passes_into_final_third,Passes into final third,8,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,attack,Attack,touches,Touches,70,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,attack,Attack,touches_opp_box,Touches in opposition box,2,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,clearances,Clearances,5,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,defensive_actions,Defensive actions,6,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,headed_clearance,Headed clearance,2,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,recoveries,Recoveries,5,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,duels,Duels,aerials_won,Aerial duels won,2,3,fractionWithPercentage
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,duels,Duels,duel_won,Duels won,3,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,duels,Duels,ground_duels_won,Ground duels won,1,1,fractionWithPercentage
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,ShotsOffTarget,Shots off target,2,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,accurate_passes,Accurate passes,53,61,fractionWithPercentage
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,defensive_actions,Defensive actions,6,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.15,,double
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,rating_title,FotMob rating,7.11,,double
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,shot_accuracy,Shot accuracy,0,2,fractionWithPercentage
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361995,1313481,Bijoy Varghese,589749,Punjab FC,False,3,1,top_stats,Top stats,xg_and_xa,xG + xA,0.16,,double
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,accurate_passes,Accurate passes,17,32,fractionWithPercentage
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,clearances,Clearances,2,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,expected_goals_on_target_faced,xGOT faced,3.18,,double
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,fouls,Fouls committed,0,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,goals_conceded,Goals conceded,2,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,goals_prevented,Goals prevented,1.18,,double
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,interceptions,Interceptions,0,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,keeper_diving_save,Diving save,0,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,keeper_high_claim,High claim,0,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,keeper_sweeper,Acted as sweeper,1,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,long_balls_accurate,Accurate long balls,6,21,fractionWithPercentage
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,passes_into_final_third,Passes into final third,9,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,player_throws,Throws,3,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,punches,Punches,1,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,rating_title,FotMob rating,7.32,,double
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,recoveries,Recoveries,9,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,saves,Saves,4,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,saves_inside_box,Saves inside box,3,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,touches,Touches,41,,integer
+6361995,1313528,Hrithik Tiwari,578653,Odisha FC,True,55,0,top_stats,Top stats,was_fouled,Was fouled,,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,accurate_crosses,Accurate crosses,2,7,fractionWithPercentage
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.04,,double
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,long_balls_accurate,Accurate long balls,3,5,fractionWithPercentage
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,passes_into_final_third,Passes into final third,13,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,touches,Touches,70,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,clearances,Clearances,6,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,defensive_actions,Defensive actions,8,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,headed_clearance,Headed clearance,4,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,recoveries,Recoveries,3,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,defense,Defense,shot_blocks,Blocks,1,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,duels,Duels,aerials_won,Aerial duels won,3,3,fractionWithPercentage
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,duels,Duels,duel_won,Duels won,3,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,accurate_passes,Accurate passes,27,34,fractionWithPercentage
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,assists,Assists,1,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,big_chance_created_team_title,Big chances created,1,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,defensive_actions,Defensive actions,8,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.45,,double
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.04,,double
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,rating_title,FotMob rating,8.1,,double
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,1344675,Muhammed Uvais,589749,Punjab FC,False,2,1,top_stats,Top stats,xg_and_xa,xG + xA,0.49,,double
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,attack,Attack,accurate_crosses,Accurate crosses,0,2,fractionWithPercentage
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,attack,Attack,long_balls_accurate,Accurate long balls,4,11,fractionWithPercentage
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,attack,Attack,passes_into_final_third,Passes into final third,12,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,attack,Attack,touches,Touches,65,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,clearances,Clearances,2,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,defensive_actions,Defensive actions,8,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,dribbled_past,Dribbled past,2,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,interceptions,Interceptions,3,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,recoveries,Recoveries,3,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,duels,Duels,aerials_won,Aerial duels won,1,3,fractionWithPercentage
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,duels,Duels,duel_lost,Duels lost,6,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,duels,Duels,duel_won,Duels won,8,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,duels,Duels,fouls,Fouls committed,1,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,duels,Duels,ground_duels_won,Ground duels won,7,11,fractionWithPercentage
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,duels,Duels,was_fouled,Was fouled,4,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,accurate_passes,Accurate passes,26,37,fractionWithPercentage
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,defensive_actions,Defensive actions,8,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,expected_assists,Expected assists (xA),0.02,,double
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,rating_title,FotMob rating,6.46,,double
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1352933,Vanlalzuidika Chhakchhuak,578653,Odisha FC,False,34,1,top_stats,Top stats,xg_and_xa,xG + xA,0.02,,double
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,attack,Attack,accurate_crosses,Accurate crosses,0,1,fractionWithPercentage
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.02,,double
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,attack,Attack,touches,Touches,11,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,recoveries,Recoveries,2,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,duels,Duels,ground_duels_won,Ground duels won,0,1,fractionWithPercentage
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,accurate_passes,Accurate passes,3,4,fractionWithPercentage
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.02,,double
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.01,,double
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,minutes_played,Minutes played,8,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,1409172,Nihal Sudeesh,578653,Odisha FC,False,77,2,top_stats,Top stats,xg_and_xa,xG + xA,0.02,,double
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,attack,Attack,long_balls_accurate,Accurate long balls,1,3,fractionWithPercentage
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,attack,Attack,touches,Touches,17,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,clearances,Clearances,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,headed_clearance,Headed clearance,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,recoveries,Recoveries,2,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,duels,Duels,duel_lost,Duels lost,2,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,duels,Duels,duel_won,Duels won,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,duels,Duels,ground_duels_won,Ground duels won,1,2,fractionWithPercentage
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,accurate_passes,Accurate passes,10,12,fractionWithPercentage
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.02,,double
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,minutes_played,Minutes played,26,,integer
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,rating_title,FotMob rating,6.34,,double
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1421473,Lalrinfela Khiangte,578653,Odisha FC,False,25,2,top_stats,Top stats,xg_and_xa,xG + xA,0.02,,double
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,dribbles_succeeded,Successful dribbles,1,2,fractionWithPercentage
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.1,,double
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,passes_into_final_third,Passes into final third,4,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,touches,Touches,46,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,attack,Attack,touches_opp_box,Touches in opposition box,3,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,recoveries,Recoveries,6,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,duels,Duels,aerials_won,Aerial duels won,1,1,fractionWithPercentage
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,duels,Duels,duel_lost,Duels lost,4,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,duels,Duels,duel_won,Duels won,3,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,duels,Duels,fouls,Fouls committed,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,duels,Duels,ground_duels_won,Ground duels won,2,6,fractionWithPercentage
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,ShotsOffTarget,Shots off target,0,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,accurate_passes,Accurate passes,25,34,fractionWithPercentage
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.17,,double
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.1,,double
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.94,,double
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,minutes_played,Minutes played,68,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,rating_title,FotMob rating,7.15,,double
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,shot_accuracy,Shot accuracy,1,1,fractionWithPercentage
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,1437426,Diego Raposo,589749,Punjab FC,False,11,3,top_stats,Top stats,xg_and_xa,xG + xA,0.27,,double
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,accurate_crosses,Accurate crosses,0,2,fractionWithPercentage
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,corners,Corners,1,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,touches,Touches,11,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,recoveries,Recoveries,1,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,duels,Duels,duel_lost,Duels lost,3,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,duels,Duels,fouls,Fouls committed,2,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,duels,Duels,ground_duels_won,Ground duels won,0,3,fractionWithPercentage
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,accurate_passes,Accurate passes,4,7,fractionWithPercentage
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,minutes_played,Minutes played,17,,integer
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,rating_title,FotMob rating,5.97,,double
+6361995,1586222,Mohammad Inam,589749,Punjab FC,False,8,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,accurate_crosses,Accurate crosses,2,3,fractionWithPercentage
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,dribbles_succeeded,Successful dribbles,3,5,fractionWithPercentage
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,touches,Touches,39,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,recoveries,Recoveries,5,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,duels,Duels,aerials_won,Aerial duels won,2,4,fractionWithPercentage
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,duels,Duels,duel_lost,Duels lost,7,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,duels,Duels,duel_won,Duels won,5,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,duels,Duels,fouls,Fouls committed,3,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,duels,Duels,ground_duels_won,Ground duels won,3,8,fractionWithPercentage
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,accurate_passes,Accurate passes,18,24,fractionWithPercentage
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.21,,double
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,minutes_played,Minutes played,73,,integer
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,rating_title,FotMob rating,7.35,,double
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1678513,Muhammad Suhail,589749,Punjab FC,False,17,3,top_stats,Top stats,xg_and_xa,xG + xA,0.21,,double
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,dribbles_succeeded,Successful dribbles,2,2,fractionWithPercentage
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.03,,double
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,long_balls_accurate,Accurate long balls,0,1,fractionWithPercentage
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,touches,Touches,23,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,attack,Attack,touches_opp_box,Touches in opposition box,3,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,recoveries,Recoveries,4,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,duels,Duels,duel_won,Duels won,2,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,duels,Duels,ground_duels_won,Ground duels won,2,2,fractionWithPercentage
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,accurate_passes,Accurate passes,15,18,fractionWithPercentage
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.05,,double
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.03,,double
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,minutes_played,Minutes played,22,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,rating_title,FotMob rating,6.87,,double
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,1721394,Vishal Yadav,589749,Punjab FC,False,14,3,top_stats,Top stats,xg_and_xa,xG + xA,0.08,,double
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,attack,Attack,dribbles_succeeded,Successful dribbles,1,1,fractionWithPercentage
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,attack,Attack,long_balls_accurate,Accurate long balls,1,1,fractionWithPercentage
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,attack,Attack,touches,Touches,46,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,defensive_actions,Defensive actions,5,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,interceptions,Interceptions,4,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,recoveries,Recoveries,3,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,duels,Duels,duel_won,Duels won,2,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,duels,Duels,ground_duels_won,Ground duels won,2,3,fractionWithPercentage
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,accurate_passes,Accurate passes,32,37,fractionWithPercentage
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,defensive_actions,Defensive actions,5,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,minutes_played,Minutes played,68,,integer
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,rating_title,FotMob rating,7.13,,double
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,1837674,Laishram Rishikanta Meitei,589749,Punjab FC,False,22,2,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,attack,Attack,long_balls_accurate,Accurate long balls,3,7,fractionWithPercentage
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,attack,Attack,passes_into_final_third,Passes into final third,9,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,attack,Attack,touches,Touches,61,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,clearances,Clearances,1,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,defensive_actions,Defensive actions,6,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,interceptions,Interceptions,4,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,recoveries,Recoveries,3,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,duels,Duels,aerials_won,Aerial duels won,0,2,fractionWithPercentage
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,duels,Duels,duel_lost,Duels lost,3,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,duels,Duels,duel_won,Duels won,2,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,duels,Duels,ground_duels_won,Ground duels won,2,3,fractionWithPercentage
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,accurate_passes,Accurate passes,36,48,fractionWithPercentage
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,defensive_actions,Defensive actions,6,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.01,,double
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,minutes_played,Minutes played,82,,integer
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,rating_title,FotMob rating,6.62,,double
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,213490,Manu Molina,578653,Odisha FC,False,12,2,top_stats,Top stats,xg_and_xa,xG + xA,0.01,,double
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.02,,double
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,attack,Attack,long_balls_accurate,Accurate long balls,0,1,fractionWithPercentage
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,attack,Attack,touches,Touches,12,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,recoveries,Recoveries,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,duels,Duels,duel_lost,Duels lost,3,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,duels,Duels,ground_duels_won,Ground duels won,0,2,fractionWithPercentage
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,accurate_passes,Accurate passes,8,9,fractionWithPercentage
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,assists,Assists,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,big_chance_created_team_title,Big chances created,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.25,,double
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.02,,double
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,minutes_played,Minutes played,22,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,rating_title,FotMob rating,6.65,,double
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,2376464,Bishu Sharma,589749,Punjab FC,False,18,2,top_stats,Top stats,xg_and_xa,xG + xA,0.27,,double
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.05,,double
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,long_balls_accurate,Accurate long balls,2,2,fractionWithPercentage
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,passes_into_final_third,Passes into final third,6,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,touches,Touches,31,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,defensive_actions,Defensive actions,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,recoveries,Recoveries,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,duels,Duels,duel_lost,Duels lost,4,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,duels,Duels,duel_won,Duels won,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,duels,Duels,fouls,Fouls committed,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,duels,Duels,ground_duels_won,Ground duels won,1,4,fractionWithPercentage
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,accurate_passes,Accurate passes,23,26,fractionWithPercentage
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,big_chance_created_team_title,Big chances created,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,chances_created,Chances created,2,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,defensive_actions,Defensive actions,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.27,,double
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,expected_goals,Expected goals (xG),0.05,,double
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,minutes_played,Minutes played,64,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,rating_title,FotMob rating,6.44,,double
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,463963,Giorgi Aburjania,578653,Odisha FC,False,29,2,top_stats,Top stats,xg_and_xa,xG + xA,0.32,,double
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,attack,Attack,big_chance_missed_title,Big chances missed,1,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.29,,double
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,attack,Attack,touches,Touches,27,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,attack,Attack,touches_opp_box,Touches in opposition box,3,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,clearances,Clearances,0,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,defensive_actions,Defensive actions,2,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,recoveries,Recoveries,3,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,duels,Duels,aerials_won,Aerial duels won,2,3,fractionWithPercentage
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,duels,Duels,duel_lost,Duels lost,4,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,duels,Duels,duel_won,Duels won,5,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,duels,Duels,fouls,Fouls committed,2,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,duels,Duels,ground_duels_won,Ground duels won,3,6,fractionWithPercentage
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,ShotsOnTarget,Shots on target,1,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,accurate_passes,Accurate passes,12,17,fractionWithPercentage
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,assists,Assists,0,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,defensive_actions,Defensive actions,2,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,expected_assists,Expected assists (xA),0.06,,double
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,expected_goals,Expected goals (xG),0.29,,double
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.1,,double
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,goals,Goals,0,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,minutes_played,Minutes played,82,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,rating_title,FotMob rating,6.7,,double
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,shot_accuracy,Shot accuracy,1,2,fractionWithPercentage
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,total_shots,Total shots,2,,integer
+6361995,608833,Mahmoud Dhadha Eid,578653,Odisha FC,False,,,top_stats,Top stats,xg_and_xa,xG + xA,0.35,,double
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,attack,Attack,passes_into_final_third,Passes into final third,3,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,attack,Attack,touches,Touches,9,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,duels,Duels,aerials_won,Aerial duels won,1,4,fractionWithPercentage
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,duels,Duels,duel_lost,Duels lost,3,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,duels,Duels,duel_won,Duels won,1,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,accurate_passes,Accurate passes,4,5,fractionWithPercentage
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.2,,double
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,minutes_played,Minutes played,26,,integer
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,rating_title,FotMob rating,5.98,,double
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,737312,Éverton,578653,Odisha FC,False,8,3,top_stats,Top stats,xg_and_xa,xG + xA,0.2,,double
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,attack,Attack,accurate_crosses,Accurate crosses,0,3,fractionWithPercentage
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,attack,Attack,dispossessed,Dispossessed,1,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,attack,Attack,long_balls_accurate,Accurate long balls,0,2,fractionWithPercentage
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,attack,Attack,touches,Touches,25,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,recoveries,Recoveries,2,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,duels,Duels,duel_lost,Duels lost,2,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,duels,Duels,duel_won,Duels won,1,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,duels,Duels,ground_duels_won,Ground duels won,1,3,fractionWithPercentage
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,accurate_passes,Accurate passes,13,17,fractionWithPercentage
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,minutes_played,Minutes played,64,,integer
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,rating_title,FotMob rating,6.07,,double
+6361995,831504,Nandha Kumar Sekar,578653,Odisha FC,False,22,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.24,,double
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,attack,Attack,long_balls_accurate,Accurate long balls,4,8,fractionWithPercentage
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,attack,Attack,passes_into_final_third,Passes into final third,4,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,attack,Attack,touches,Touches,59,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,attack,Attack,touches_opp_box,Touches in opposition box,2,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,clearances,Clearances,8,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,defensive_actions,Defensive actions,11,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,headed_clearance,Headed clearance,5,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,interceptions,Interceptions,1,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,matchstats.headers.tackles,Tackles,1,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,recoveries,Recoveries,5,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,defense,Defense,shot_blocks,Blocks,1,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,duels,Duels,aerials_won,Aerial duels won,2,5,fractionWithPercentage
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,duels,Duels,duel_lost,Duels lost,4,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,duels,Duels,duel_won,Duels won,4,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,duels,Duels,fouls,Fouls committed,1,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,duels,Duels,ground_duels_won,Ground duels won,2,3,fractionWithPercentage
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,ShotsOffTarget,Shots off target,2,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,accurate_passes,Accurate passes,38,43,fractionWithPercentage
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,assists,Assists,0,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,defensive_actions,Defensive actions,11,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,expected_goals,Expected goals (xG),0.24,,double
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,goals,Goals,0,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,rating_title,FotMob rating,6.38,,double
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,shot_accuracy,Shot accuracy,0,2,fractionWithPercentage
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,total_shots,Total shots,3,,integer
+6361995,878215,Stephen Eze,578653,Odisha FC,False,66,1,top_stats,Top stats,xg_and_xa,xG + xA,0.24,,double
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,Offsides,Offsides,3,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,accurate_crosses,Accurate crosses,0,2,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,dispossessed,Dispossessed,2,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,dribbles_succeeded,Successful dribbles,1,2,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.84,,double
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,long_balls_accurate,Accurate long balls,1,2,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,passes_into_final_third,Passes into final third,4,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,touches,Touches,49,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,attack,Attack,touches_opp_box,Touches in opposition box,8,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,defensive_actions,Defensive actions,3,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,interceptions,Interceptions,2,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,recoveries,Recoveries,5,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,defense,Defense,shot_blocks,Blocks,1,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,duels,Duels,aerials_won,Aerial duels won,4,7,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,duels,Duels,duel_lost,Duels lost,11,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,duels,Duels,duel_won,Duels won,7,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,duels,Duels,fouls,Fouls committed,4,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,duels,Duels,ground_duels_won,Ground duels won,3,11,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,duels,Duels,was_fouled,Was fouled,2,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,ShotsOffTarget,Shots off target,2,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,ShotsOnTarget,Shots on target,2,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,accurate_passes,Accurate passes,21,32,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,chances_created,Chances created,3,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,defensive_actions,Defensive actions,3,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.13,,double
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.84,,double
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),1.8,,double
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,goals,Goals,2,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,rating_title,FotMob rating,9.12,,double
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,shot_accuracy,Shot accuracy,2,4,fractionWithPercentage
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,total_shots,Total shots,4,,integer
+6361995,897287,Messi Bouli,589749,Punjab FC,False,28,3,top_stats,Top stats,xg_and_xa,xG + xA,0.97,,double
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,accurate_crosses,Accurate crosses,3,4,fractionWithPercentage
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,corners,Corners,4,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,dribbles_succeeded,Successful dribbles,1,1,fractionWithPercentage
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,long_balls_accurate,Accurate long balls,2,7,fractionWithPercentage
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,passes_into_final_third,Passes into final third,4,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,touches,Touches,59,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,defensive_actions,Defensive actions,4,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,matchstats.headers.tackles,Tackles,3,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,recoveries,Recoveries,11,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,defense,Defense,shot_blocks,Blocks,1,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,duels,Duels,aerials_won,Aerial duels won,0,1,fractionWithPercentage
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,duels,Duels,duel_lost,Duels lost,2,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,duels,Duels,duel_won,Duels won,4,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,duels,Duels,ground_duels_won,Ground duels won,4,5,fractionWithPercentage
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,accurate_passes,Accurate passes,37,48,fractionWithPercentage
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,assists,Assists,1,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,chances_created,Chances created,3,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,defensive_actions,Defensive actions,4,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,expected_assists,Expected assists (xA),0.1,,double
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,minutes_played,Minutes played,90,,integer
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,rating_title,FotMob rating,7.97,,double
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,923177,Puitea,578653,Odisha FC,False,7,2,top_stats,Top stats,xg_and_xa,xG + xA,0.1,,double
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,attack,Attack,dribbles_succeeded,Successful dribbles,0,1,fractionWithPercentage
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,attack,Attack,passes_into_final_third,Passes into final third,2,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,attack,Attack,touches,Touches,10,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,clearances,Clearances,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,recoveries,Recoveries,1,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,duels,Duels,duel_lost,Duels lost,1,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,duels,Duels,ground_duels_won,Ground duels won,0,1,fractionWithPercentage
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,accurate_passes,Accurate passes,7,7,fractionWithPercentage
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,assists,Assists,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,goals,Goals,0,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,minutes_played,Minutes played,8,,integer
+6361995,924266,Edwin Sydney Vanspaul,578653,Odisha FC,False,33,2,top_stats,Top stats,shotmap,Shotmap,0,,boolean
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,accurate_crosses,Accurate crosses,1,1,fractionWithPercentage
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,dribbles_succeeded,Successful dribbles,0,2,fractionWithPercentage
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.47,,double
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,passes_into_final_third,Passes into final third,5,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,touches,Touches,34,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,attack,Attack,touches_opp_box,Touches in opposition box,7,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,recoveries,Recoveries,2,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,duels,Duels,duel_lost,Duels lost,4,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,duels,Duels,fouls,Fouls committed,2,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,duels,Duels,ground_duels_won,Ground duels won,0,4,fractionWithPercentage
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,ShotsOnTarget,Shots on target,2,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,accurate_passes,Accurate passes,15,19,fractionWithPercentage
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,blocked_shots,Blocked shots,1,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,chances_created,Chances created,1,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,expected_assists,Expected assists (xA),0.1,,double
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.47,,double
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),0.42,,double
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,minutes_played,Minutes played,84,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,rating_title,FotMob rating,6.9,,double
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,shot_accuracy,Shot accuracy,2,3,fractionWithPercentage
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,total_shots,Total shots,4,,integer
+6361995,957210,Alfred Planas,589749,Punjab FC,False,10,3,top_stats,Top stats,xg_and_xa,xG + xA,0.57,,double
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,attack,Attack,dispossessed,Dispossessed,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,attack,Attack,expected_goals_non_penalty,xG Non-penalty,0.09,,double
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,attack,Attack,passes_into_final_third,Passes into final third,1,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,attack,Attack,touches,Touches,2,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,attack,Attack,touches_opp_box,Touches in opposition box,1,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,clearances,Clearances,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,defensive_actions,Defensive actions,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,dribbled_past,Dribbled past,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,matchstats.headers.tackles,Tackles,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,recoveries,Recoveries,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,duels,Duels,aerials_won,Aerial duels won,0,0,fractionWithPercentage
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,duels,Duels,was_fouled,Was fouled,,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,ShotsOffTarget,Shots off target,1,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,ShotsOnTarget,Shots on target,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,accurate_passes,Accurate passes,0,1,fractionWithPercentage
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,assists,Assists,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,defensive_actions,Defensive actions,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,expected_goals,Expected goals (xG),0.09,,double
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,expected_goals_on_target_variant,Expected goals on target (xGOT),,,double
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,goals,Goals,0,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,minutes_played,Minutes played,1,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,shot_accuracy,Shot accuracy,0,1,fractionWithPercentage
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,shotmap,Shotmap,1,,boolean
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,total_shots,Total shots,1,,integer
+6361995,978305,Suhair VP,578653,Odisha FC,False,15,3,top_stats,Top stats,xg_and_xa,xG + xA,0.09,,double
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,attack,Attack,dispossessed,Dispossessed,3,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,attack,Attack,long_balls_accurate,Accurate long balls,3,7,fractionWithPercentage
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,attack,Attack,passes_into_final_third,Passes into final third,6,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,attack,Attack,touches,Touches,43,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,attack,Attack,touches_opp_box,Touches in opposition box,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,clearances,Clearances,1,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,defensive_actions,Defensive actions,3,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,dribbled_past,Dribbled past,1,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,interceptions,Interceptions,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,matchstats.headers.tackles,Tackles,2,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,recoveries,Recoveries,6,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,defense,Defense,shot_blocks,Blocks,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,duels,Duels,aerials_won,Aerial duels won,1,2,fractionWithPercentage
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,duels,Duels,duel_lost,Duels lost,5,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,duels,Duels,duel_won,Duels won,4,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,duels,Duels,fouls,Fouls committed,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,duels,Duels,ground_duels_won,Ground duels won,3,7,fractionWithPercentage
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,duels,Duels,was_fouled,Was fouled,1,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,accurate_passes,Accurate passes,17,26,fractionWithPercentage
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,assists,Assists,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,chances_created,Chances created,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,defensive_actions,Defensive actions,3,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,goals,Goals,0,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,minutes_played,Minutes played,89,,integer
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,rating_title,FotMob rating,6.03,,double
+6361995,990954,Saviour Gama,578653,Odisha FC,False,13,1,top_stats,Top stats,shotmap,Shotmap,0,,boolean
