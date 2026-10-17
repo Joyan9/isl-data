@@ -1,0 +1,8 @@
+{
+  "match_id": "6361996",
+  "status": "ok",
+  "model": "openai/gpt-oss-20b",
+  "source_hash": "29f1a5f326f511c1dfb7e0563b9644bdc278192e8b632f8a679aabc93a477e68",
+  "insights": "- The final 1‑2 scoreline matched the xG story: Mohun Bagan’s 1.76 expected goals were almost exactly what they turned into, while Delhi’s 1.12 xG produced a single goal – a simple illustration that xG is a measure of chance quality, not a crystal‑ball predictor.\n- Delhi fired 15 shots (9 on target) for 1 goal; Mohun Bagan hit the woodwork 20 times (11 on target) and scored twice – a shooting efficiency of 6.7% for Delhi versus 10% for the visitors, showing that a higher shot tally does not automatically translate into goals.\n- Possession was almost even (49% vs 51%) but the gap widened in corners (1 vs 5) and accurate crosses (0 vs 6), hinting that the extra set‑piece and crossing output helped Mohun Bagan convert their 1.76 xG into a 2‑goal haul.\n- Key performers: Lalrinliana Hnamte (3 shots, 1 goal, 0.71 xG) gave Delhi its sole point; Lee Erwin (6 shots, 1 goal, 0.67 xG) and Miguel Figueira (4 shots, 1 goal, 0.26 xG) each converted their chances to secure the win.",
+  "generated_at_utc": "2026-10-17T06:21:32+00:00"
+}
