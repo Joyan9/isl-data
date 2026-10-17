@@ -1547,3 +1547,261 @@ match_id,league_season_id,round,match_date_utc,period,team_id,team_name,side,gro
 6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,total_shots,Total shots,11,,11
 6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,touches_opp_box,Touches in opposition box,20,,20
 6361995,949788,1,2026-10-14T14:00:00.000Z,SecondHalf,589749,Punjab FC,home,top_stats,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,clearances,Clearances,16,,16
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,interceptions,Interceptions,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,keeper_saves,Keeper saves,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,matchstats.headers.tackles,Tackles,14,,14
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,defence,shot_blocks,Blocks,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,discipline,fouls,Fouls committed,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,discipline,red_cards,Red cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,discipline,yellow_cards,Yellow cards,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,aerials_won,Aerial duels won,10,45,10 (45%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,dribbles_succeeded,Successful dribbles,7,37,7 (37%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,duel_won,Duels won,45,,45
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,duels,ground_duels_won,Ground duels won,35,55,35 (55%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals,Expected goals (xG),1.76,,1.76
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_non_penalty,xG non-penalty,1.76,,1.76
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_on_target,xG on target (xGOT),2.13,,2.13
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_open_play,xG open play,1.53,,1.53
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,expected_goals,expected_goals_set_play,xG set play,0.23,,0.23
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,Offsides,Offsides,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,accurate_crosses,Accurate crosses,6,33,6 (33%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,accurate_passes,Accurate passes,381,79,381 (79%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,long_balls_accurate,Accurate long balls,17,35,17 (35%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,opposition_half_passes,Opposition half,189,,189
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,own_half_passes,Own half,192,,192
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,passes,Passes,485,,485
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,player_throws,Throws,22,,22
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,passes,touches_opp_box,Touches in opposition box,32,,32
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,ShotsOffTarget,Shots off target,9,,9
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,ShotsOnTarget,Shots on target,10,,10
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,blocked_shots,Blocked shots,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,shots_inside_box,Shots inside box,14,,14
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,shots_outside_box,Shots outside box,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,shots_woodwork,Hit woodwork,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,shots,total_shots,Total shots,20,,20
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,BallPossesion,Ball possession,51,,51
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,ShotsOnTarget,Shots on target,10,,10
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,accurate_passes,Accurate passes,381,79,381 (79%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,big_chance,Big chances,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,corners,Corners,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,expected_goals,Expected goals (xG),1.76,,1.76
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,total_shots,Total shots,20,,20
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,touches_opp_box,Touches in opposition box,32,,32
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,578651,Mohun Bagan SG,away,top_stats,yellow_cards,Yellow cards,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,defence,clearances,Clearances,23,,23
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,defence,interceptions,Interceptions,11,,11
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,defence,keeper_saves,Keeper saves,8,,8
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,defence,matchstats.headers.tackles,Tackles,17,,17
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,defence,shot_blocks,Blocks,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,discipline,fouls,Fouls committed,14,,14
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,discipline,red_cards,Red cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,discipline,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,duels,aerials_won,Aerial duels won,12,55,12 (55%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,duels,dribbles_succeeded,Successful dribbles,5,33,5 (33%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,duels,duel_won,Duels won,41,,41
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,duels,ground_duels_won,Ground duels won,29,45,29 (45%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,expected_goals,expected_goals,Expected goals (xG),1.12,,1.12
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,expected_goals,expected_goals_non_penalty,xG non-penalty,1.12,,1.12
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,expected_goals,expected_goals_on_target,xG on target (xGOT),1.06,,1.06
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,expected_goals,expected_goals_open_play,xG open play,1.11,,1.11
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,expected_goals,expected_goals_set_play,xG set play,0.02,,0.02
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,Offsides,Offsides,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,accurate_crosses,Accurate crosses,0,0,0 (0%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,accurate_passes,Accurate passes,372,79,372 (79%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,long_balls_accurate,Accurate long balls,36,49,36 (49%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,opposition_half_passes,Opposition half,153,,153
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,own_half_passes,Own half,219,,219
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,passes,Passes,472,,472
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,player_throws,Throws,10,,10
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,passes,touches_opp_box,Touches in opposition box,16,,16
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,ShotsOffTarget,Shots off target,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,ShotsOnTarget,Shots on target,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,blocked_shots,Blocked shots,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,shots_inside_box,Shots inside box,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,shots_outside_box,Shots outside box,8,,8
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,shots,total_shots,Total shots,15,,15
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,BallPossesion,Ball possession,49,,49
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,ShotsOnTarget,Shots on target,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,accurate_passes,Accurate passes,372,79,372 (79%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,big_chance,Big chances,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,corners,Corners,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,expected_goals,Expected goals (xG),1.12,,1.12
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,total_shots,Total shots,15,,15
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,touches_opp_box,Touches in opposition box,16,,16
+6361996,949788,1,2026-10-16T14:00:00.000Z,All,1086744,SC Delhi,home,top_stats,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,clearances,Clearances,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,interceptions,Interceptions,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,keeper_saves,Keeper saves,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,matchstats.headers.tackles,Tackles,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,defence,shot_blocks,Blocks,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,discipline,fouls,Fouls committed,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,discipline,red_cards,Red cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,discipline,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,aerials_won,Aerial duels won,3,43,3 (43%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,dribbles_succeeded,Successful dribbles,5,42,5 (42%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,duel_won,Duels won,23,,23
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,duels,ground_duels_won,Ground duels won,20,61,20 (61%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals,Expected goals (xG),0.47,,0.47
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_non_penalty,xG non-penalty,0.47,,0.47
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_on_target,xG on target (xGOT),0.29,,0.29
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_open_play,xG open play,0.41,,0.41
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_set_play,xG set play,0.05,,0.05
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,Offsides,Offsides,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,accurate_crosses,Accurate crosses,2,33,2 (33%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,accurate_passes,Accurate passes,208,80,208 (80%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,long_balls_accurate,Accurate long balls,7,35,7 (35%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,opposition_half_passes,Opposition half,97,,97
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,own_half_passes,Own half,111,,111
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,passes,Passes,259,,259
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,player_throws,Throws,8,,8
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,passes,touches_opp_box,Touches in opposition box,15,,15
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,ShotsOffTarget,Shots off target,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,ShotsOnTarget,Shots on target,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,blocked_shots,Blocked shots,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,shots_inside_box,Shots inside box,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,shots_outside_box,Shots outside box,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,shots_woodwork,Hit woodwork,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,shots,total_shots,Total shots,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,BallPossesion,Ball possession,52,,52
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,ShotsOnTarget,Shots on target,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,accurate_passes,Accurate passes,208,80,208 (80%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,big_chance,Big chances,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,corners,Corners,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,expected_goals,Expected goals (xG),0.47,,0.47
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,total_shots,Total shots,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,touches_opp_box,Touches in opposition box,15,,15
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,578651,Mohun Bagan SG,away,top_stats,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,defence,clearances,Clearances,10,,10
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,defence,interceptions,Interceptions,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,defence,keeper_saves,Keeper saves,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,defence,matchstats.headers.tackles,Tackles,10,,10
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,defence,shot_blocks,Blocks,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,discipline,fouls,Fouls committed,8,,8
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,discipline,red_cards,Red cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,discipline,yellow_cards,Yellow cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,duels,aerials_won,Aerial duels won,4,57,4 (57%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,duels,dribbles_succeeded,Successful dribbles,1,17,1 (17%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,duels,duel_won,Duels won,17,,17
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,duels,ground_duels_won,Ground duels won,13,39,13 (39%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,expected_goals,expected_goals,Expected goals (xG),0.71,,0.71
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,expected_goals,expected_goals_non_penalty,xG non-penalty,0.71,,0.71
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,expected_goals,expected_goals_on_target,xG on target (xGOT),0.94,,0.94
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,expected_goals,expected_goals_open_play,xG open play,0.7,,0.70
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,expected_goals,expected_goals_set_play,xG set play,0.02,,0.02
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,Offsides,Offsides,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,accurate_crosses,Accurate crosses,0,0,0 (0%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,accurate_passes,Accurate passes,200,82,200 (82%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,long_balls_accurate,Accurate long balls,19,51,19 (51%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,opposition_half_passes,Opposition half,71,,71
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,own_half_passes,Own half,129,,129
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,passes,Passes,244,,244
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,player_throws,Throws,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,passes,touches_opp_box,Touches in opposition box,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,ShotsOffTarget,Shots off target,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,ShotsOnTarget,Shots on target,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,blocked_shots,Blocked shots,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,shots_inside_box,Shots inside box,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,shots_outside_box,Shots outside box,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,shots,total_shots,Total shots,9,,9
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,BallPossesion,Ball possession,48,,48
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,ShotsOnTarget,Shots on target,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,accurate_passes,Accurate passes,200,82,200 (82%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,big_chance,Big chances,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,corners,Corners,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,expected_goals,Expected goals (xG),0.71,,0.71
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,total_shots,Total shots,9,,9
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,touches_opp_box,Touches in opposition box,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,FirstHalf,1086744,SC Delhi,home,top_stats,yellow_cards,Yellow cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,clearances,Clearances,10,,10
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,interceptions,Interceptions,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,keeper_saves,Keeper saves,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,matchstats.headers.tackles,Tackles,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,defence,shot_blocks,Blocks,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,discipline,fouls,Fouls committed,5,,5
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,discipline,red_cards,Red cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,discipline,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,aerials_won,Aerial duels won,7,47,7 (47%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,dribbles_succeeded,Successful dribbles,2,29,2 (29%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,duel_won,Duels won,22,,22
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,duels,ground_duels_won,Ground duels won,15,48,15 (48%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals,Expected goals (xG),1.3,,1.30
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_non_penalty,xG non-penalty,1.3,,1.30
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_on_target,xG on target (xGOT),1.84,,1.84
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_open_play,xG open play,1.12,,1.12
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,expected_goals,expected_goals_set_play,xG set play,0.18,,0.18
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,Offsides,Offsides,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,accurate_crosses,Accurate crosses,4,33,4 (33%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,accurate_passes,Accurate passes,173,77,173 (77%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,long_balls_accurate,Accurate long balls,10,36,10 (36%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,opposition_half_passes,Opposition half,92,,92
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,own_half_passes,Own half,81,,81
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,passes,Passes,226,,226
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,player_throws,Throws,14,,14
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,passes,touches_opp_box,Touches in opposition box,17,,17
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,ShotsOffTarget,Shots off target,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,ShotsOnTarget,Shots on target,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,blocked_shots,Blocked shots,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,shots_inside_box,Shots inside box,9,,9
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,shots_outside_box,Shots outside box,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,shots_woodwork,Hit woodwork,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,shots,total_shots,Total shots,13,,13
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,BallPossesion,Ball possession,50,,50
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,ShotsOnTarget,Shots on target,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,accurate_passes,Accurate passes,173,77,173 (77%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,big_chance,Big chances,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,corners,Corners,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,expected_goals,Expected goals (xG),1.3,,1.30
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,total_shots,Total shots,13,,13
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,touches_opp_box,Touches in opposition box,17,,17
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,578651,Mohun Bagan SG,away,top_stats,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,defence,clearances,Clearances,13,,13
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,defence,interceptions,Interceptions,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,defence,keeper_saves,Keeper saves,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,defence,matchstats.headers.tackles,Tackles,7,,7
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,defence,shot_blocks,Blocks,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,discipline,fouls,Fouls committed,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,discipline,red_cards,Red cards,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,discipline,yellow_cards,Yellow cards,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,duels,aerials_won,Aerial duels won,8,53,8 (53%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,duels,dribbles_succeeded,Successful dribbles,4,44,4 (44%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,duels,duel_won,Duels won,24,,24
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,duels,ground_duels_won,Ground duels won,16,52,16 (52%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,expected_goals,expected_goals,Expected goals (xG),0.41,,0.41
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,expected_goals,expected_goals_non_penalty,xG non-penalty,0.41,,0.41
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,expected_goals,expected_goals_on_target,xG on target (xGOT),0.11,,0.11
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,expected_goals,expected_goals_open_play,xG open play,0.41,,0.41
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,expected_goals,expected_goals_set_play,xG set play,0,,0.00
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,Offsides,Offsides,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,accurate_crosses,Accurate crosses,0,0,0 (0%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,accurate_passes,Accurate passes,172,75,172 (75%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,long_balls_accurate,Accurate long balls,17,46,17 (46%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,opposition_half_passes,Opposition half,82,,82
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,own_half_passes,Own half,90,,90
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,passes,Passes,228,,228
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,player_throws,Throws,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,passes,touches_opp_box,Touches in opposition box,12,,12
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,ShotsOffTarget,Shots off target,3,,3
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,ShotsOnTarget,Shots on target,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,blocked_shots,Blocked shots,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,shots_inside_box,Shots inside box,4,,4
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,shots_outside_box,Shots outside box,2,,2
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,shots_woodwork,Hit woodwork,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,shots,total_shots,Total shots,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,BallPossesion,Ball possession,50,,50
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,ShotsOnTarget,Shots on target,1,,1
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,accurate_passes,Accurate passes,172,75,172 (75%)
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,big_chance,Big chances,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,big_chance_missed_title,Big chances missed,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,corners,Corners,0,,0
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,expected_goals,Expected goals (xG),0.41,,0.41
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,total_shots,Total shots,6,,6
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,touches_opp_box,Touches in opposition box,12,,12
+6361996,949788,1,2026-10-16T14:00:00.000Z,SecondHalf,1086744,SC Delhi,home,top_stats,yellow_cards,Yellow cards,2,,2
